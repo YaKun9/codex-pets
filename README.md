@@ -11,6 +11,7 @@
 | 刻晴 | `genshin-impact-keqing` | 2 | 《原神》刻晴的官方设定风 Q 版 Codex 宠物，干练优雅，带有鲜明的雷元素气质。 | [YaKun9](https://github.com/YaKun9) | [查看](./genshin-impact-keqing/) |
 | 六道鸣人 | `naruto-six-paths` | 2 | 鸣人六道仙人形态的 Q 版动画宠物，金色查克拉外衣与六道纹样醒目，勇敢而温暖。 | [GitXMING](https://github.com/GitXMING) | [查看](./naruto-six-paths/) |
 | 爻光·摇摇 | `honkai-star-rail-yaoguang-yaoyao` | 2 | 《崩坏：星穹铁道》爻光的联名摇一摇灵感 Q 版 Codex 宠物，保留银白长发、青蓝孔雀羽饰与仙舟华丽装束。 | [YaKun9](https://github.com/YaKun9) | [查看](./honkai-star-rail-yaoguang-yaoyao/) |
+| 尤诺 | `wuthering-waves-iuno` | 2 | 《鸣潮》月相主题共鸣者尤诺的灵动优雅 Q 版 Codex 宠物，保留深蓝渐变长发、金色头饰与月环意象。 | [yanhuuo](https://github.com/yanhuuo) | [查看](./wuthering-waves-iuno/) |
 
 ## 使用方式
 
