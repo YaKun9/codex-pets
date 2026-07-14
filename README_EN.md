@@ -11,6 +11,58 @@ A public repository for collecting and sharing Codex pet resources.
 | Keqing | `genshin-impact-keqing` | 2 | A chibi Codex pet based on Keqing's official *Genshin Impact* design, combining poised elegance with a distinctive Electro style. | [View directory](./genshin-impact-keqing/) |
 | Six Paths Naruto | `naruto-six-paths` | 2 | A chibi animated pet of Naruto in Six Paths Sage Mode, featuring a striking golden chakra cloak and Six Paths markings, with a brave and warmhearted presence. | [View directory](./naruto-six-paths/) |
 
+## Usage
+
+### Manual Installation
+
+1. Clone the repository and enter the project directory:
+
+```bash
+git clone https://github.com/YaKun9/codex-pets.git
+cd codex-pets
+```
+
+2. Choose an ID from the pet index and copy the entire pet directory into Codex's `pets` directory. Use `$CODEX_HOME/pets/` when `CODEX_HOME` is set; otherwise use `~/.codex/pets/`.
+
+Windows PowerShell:
+
+```powershell
+$petId = "genshin-impact-keqing"
+$codexHome = if ($env:CODEX_HOME) { $env:CODEX_HOME } else { Join-Path $HOME ".codex" }
+$petsDir = Join-Path $codexHome "pets"
+
+New-Item -ItemType Directory -Force -Path $petsDir | Out-Null
+Copy-Item -Recurse -LiteralPath (Join-Path $PWD $petId) -Destination $petsDir
+```
+
+macOS / Linux:
+
+```bash
+PET_ID="genshin-impact-keqing"
+CODEX_HOME="${CODEX_HOME:-$HOME/.codex}"
+
+mkdir -p "$CODEX_HOME/pets"
+cp -R "./$PET_ID" "$CODEX_HOME/pets/"
+```
+
+3. In the ChatGPT desktop app, open **Settings > Pets**, select **Refresh**, choose the pet, and enter `/pet` to wake it. In Codex CLI, enter `/pets` or `/pet` to open the pet picker.
+
+Custom pets are stored locally and do not automatically sync to ChatGPT Web. See the official [Pets documentation](https://learn.chatgpt.com/docs/pets) for more information.
+
+### Install with AI
+
+Send the prompt below to an AI that can access your local files and the internet. Replace the pet ID with the entry you want to install:
+
+```text
+Install the Codex pet `genshin-impact-keqing` for me:
+
+- Get the pet directory from https://github.com/YaKun9/codex-pets.
+- Determine the current user's CODEX_HOME; if it is not set, use ~/.codex.
+- Copy the entire pet directory into <CODEX_HOME>/pets/. The final directory name must match the id in pet.json.
+- Confirm that pet.json and the spritesheet referenced by spritesheetPath both exist. Do not modify the pet assets.
+- When finished, report the installed path and explain how to select the pet in the desktop app or Codex CLI.
+```
+
 ## Directory Structure
 
 Each pet lives in its own directory. The directory name must match the `id` in `pet.json` and use lowercase kebab-case in the form `<series>-<character-or-form>`, such as `genshin-impact-keqing` or `naruto-six-paths`.
@@ -31,7 +83,7 @@ Example `pet.json`:
   "id": "series-pet",
   "displayName": "Pet Name",
   "description": "Pet description",
-  "spriteVersionNumber": 1,
+  "spriteVersionNumber": 2,
   "spritesheetPath": "spritesheet.webp"
 }
 ```
