@@ -10,6 +10,7 @@ A public repository for collecting and sharing Codex pet resources.
 | --- | --- | ---: | --- | --- |
 | Keqing | `genshin-impact-keqing` | 2 | A chibi Codex pet based on Keqing's official *Genshin Impact* design, combining poised elegance with a distinctive Electro style. | [View directory](./genshin-impact-keqing/) |
 | Six Paths Naruto | `naruto-six-paths` | 2 | A chibi animated pet of Naruto in Six Paths Sage Mode, featuring a striking golden chakra cloak and Six Paths markings, with a brave and warmhearted presence. | [View directory](./naruto-six-paths/) |
+| Yaoguang · Yaoyao | `honkai-star-rail-yaoguang-yaoyao` | 2 | A chibi Codex pet inspired by Yaoguang's Yaoyao-themed shake interaction in *Honkai: Star Rail*, retaining her long silver-white hair, teal-blue peacock-feather ornaments, and ornate Xianzhou attire. | [View directory](./honkai-star-rail-yaoguang-yaoyao/) |
 
 ## Usage
 
