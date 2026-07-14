@@ -11,6 +11,7 @@ A public repository for collecting and sharing Codex pet resources.
 | Keqing | `genshin-impact-keqing` | 2 | A chibi Codex pet based on Keqing's official *Genshin Impact* design, combining poised elegance with a distinctive Electro style. | [YaKun9](https://github.com/YaKun9) | [View](./genshin-impact-keqing/) |
 | Six Paths Naruto | `naruto-six-paths` | 2 | A chibi animated pet of Naruto in Six Paths Sage Mode, featuring a striking golden chakra cloak and Six Paths markings, with a brave and warmhearted presence. | [GitXMING](https://github.com/GitXMING) | [View](./naruto-six-paths/) |
 | Yaoguang · Yaoyao | `honkai-star-rail-yaoguang-yaoyao` | 2 | A chibi Codex pet inspired by Yaoguang's Yaoyao-themed shake interaction in *Honkai: Star Rail*, retaining her long silver-white hair, teal-blue peacock-feather ornaments, and ornate Xianzhou attire. | [YaKun9](https://github.com/YaKun9) | [View](./honkai-star-rail-yaoguang-yaoyao/) |
+| Acheron | `honkai-star-rail-acheron` | 2 | A polished official-design-inspired chibi Codex pet of Acheron from *Honkai: Star Rail*, featuring her cool composure, long blade, and a red-and-white ultimate draw animation. | [YaKun9](https://github.com/YaKun9) | [View](./honkai-star-rail-acheron/) |
 | Iuno | `wuthering-waves-iuno` | 2 | An elegant chibi Codex pet based on Iuno from *Wuthering Waves*, preserving her deep-blue gradient hair, golden headpiece, and moon-ring motif. | [yanhuuo](https://github.com/yanhuuo) | [View](./wuthering-waves-iuno/) |
 
 ## Usage
