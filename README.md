@@ -6,11 +6,11 @@
 
 ## 宠物索引
 
-| 宠物 | ID | 精灵版本 | 介绍 | 资源 |
+| 名称 | ID | 版本 | 介绍 | 路径 |
 | --- | --- | ---: | --- | --- |
-| 刻晴 | `genshin-impact-keqing` | 2 | 《原神》刻晴的官方设定风 Q 版 Codex 宠物，干练优雅，带有鲜明的雷元素气质。 | [查看目录](./genshin-impact-keqing/) |
-| 六道鸣人 | `naruto-six-paths` | 2 | 鸣人六道仙人形态的 Q 版动画宠物，金色查克拉外衣与六道纹样醒目，勇敢而温暖。 | [查看目录](./naruto-six-paths/) |
-| 爻光·摇摇 | `honkai-star-rail-yaoguang-yaoyao` | 2 | 《崩坏：星穹铁道》爻光的联名摇一摇灵感 Q 版 Codex 宠物，保留银白长发、青蓝孔雀羽饰与仙舟华丽装束。 | [查看目录](./honkai-star-rail-yaoguang-yaoyao/) |
+| 刻晴 | `genshin-impact-keqing` | 2 | 《原神》刻晴的官方设定风 Q 版 Codex 宠物，干练优雅，带有鲜明的雷元素气质。 | [查看](./genshin-impact-keqing/) |
+| 六道鸣人 | `naruto-six-paths` | 2 | 鸣人六道仙人形态的 Q 版动画宠物，金色查克拉外衣与六道纹样醒目，勇敢而温暖。 | [查看](./naruto-six-paths/) |
+| 爻光·摇摇 | `honkai-star-rail-yaoguang-yaoyao` | 2 | 《崩坏：星穹铁道》爻光的联名摇一摇灵感 Q 版 Codex 宠物，保留银白长发、青蓝孔雀羽饰与仙舟华丽装束。 | [查看](./honkai-star-rail-yaoguang-yaoyao/) |
 
 ## 使用方式
 
