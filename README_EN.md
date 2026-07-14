@@ -8,11 +8,12 @@ A public repository for collecting and sharing Codex pet resources.
 
 | Pet | ID | Sprite Version | Description | Resources |
 | --- | --- | ---: | --- | --- |
-| Keqing | `keqing` | 2 | A chibi Codex pet based on Keqing's official *Genshin Impact* design, combining poised elegance with a distinctive Electro style. | [View directory](./keqing/) |
+| Keqing | `genshin-impact-keqing` | 2 | A chibi Codex pet based on Keqing's official *Genshin Impact* design, combining poised elegance with a distinctive Electro style. | [View directory](./genshin-impact-keqing/) |
+| Six Paths Naruto | `naruto-six-paths` | 2 | A chibi animated pet of Naruto in Six Paths Sage Mode, featuring a striking golden chakra cloak and Six Paths markings, with a brave and warmhearted presence. | [View directory](./naruto-six-paths/) |
 
 ## Directory Structure
 
-Each pet lives in its own directory. The directory name must match the `id` in `pet.json`.
+Each pet lives in its own directory. The directory name must match the `id` in `pet.json` and use lowercase kebab-case in the form `<series>-<character-or-form>`, such as `genshin-impact-keqing` or `naruto-six-paths`.
 
 ```text
 codex-pets/
@@ -27,7 +28,7 @@ Example `pet.json`:
 
 ```json
 {
-  "id": "pet-id",
+  "id": "series-pet",
   "displayName": "Pet Name",
   "description": "Pet description",
   "spriteVersionNumber": 1,

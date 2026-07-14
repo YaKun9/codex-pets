@@ -8,11 +8,12 @@
 
 | 宠物 | ID | 精灵版本 | 介绍 | 资源 |
 | --- | --- | ---: | --- | --- |
-| 刻晴 | `keqing` | 2 | 《原神》刻晴的官方设定风 Q 版 Codex 宠物，干练优雅，带有鲜明的雷元素气质。 | [查看目录](./keqing/) |
+| 刻晴 | `genshin-impact-keqing` | 2 | 《原神》刻晴的官方设定风 Q 版 Codex 宠物，干练优雅，带有鲜明的雷元素气质。 | [查看目录](./genshin-impact-keqing/) |
+| 六道鸣人 | `naruto-six-paths` | 2 | 鸣人六道仙人形态的 Q 版动画宠物，金色查克拉外衣与六道纹样醒目，勇敢而温暖。 | [查看目录](./naruto-six-paths/) |
 
 ## 目录结构
 
-每个宠物使用独立目录，目录名应与 `pet.json` 中的 `id` 一致。
+每个宠物使用独立目录，目录名应与 `pet.json` 中的 `id` 一致，并采用 `<作品>-<角色或形态>` 的小写 kebab-case 格式，例如 `genshin-impact-keqing`、`naruto-six-paths`。
 
 ```text
 codex-pets/
@@ -27,7 +28,7 @@ codex-pets/
 
 ```json
 {
-  "id": "pet-id",
+  "id": "series-pet",
   "displayName": "宠物名称",
   "description": "宠物介绍",
   "spriteVersionNumber": 1,
