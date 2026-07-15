@@ -15,7 +15,7 @@ A public repository for collecting and sharing Codex pet resources.
 | <img src="./wuthering-waves-iuno/preview.webp" alt="Iuno" width="72"> | Iuno | `wuthering-waves-iuno` | 2 | An elegant chibi Codex pet based on Iuno from *Wuthering Waves*, preserving her deep-blue gradient hair, golden headpiece, and moon-ring motif. | [yanhuuo](https://github.com/yanhuuo) | [View](./wuthering-waves-iuno/) |
 | <img src="./wuthering-waves-suisui/preview.webp" alt="Suisui" width="72"> | Suisui | `wuthering-waves-suisui` | 2 | A gentle and lively chibi Codex pet based on Suisui from *Wuthering Waves*, preserving her gold-and-white hair, long white-and-gold qipao front panel, blue-and-gold sleeves, water fan, and red ornaments. | [mizunagare](https://github.com/mizunagare) | [View](./wuthering-waves-suisui/) |
 | <img src="./wuthering-waves-aemeath/preview.webp" alt="Aemeath" width="72"> | Aemeath | `wuthering-waves-aemeath` | 2 | A polished chibi Codex pet based on Aemeath from *Wuthering Waves*, preserving her long pink ponytail, golden eyes, cyan crystalline hair ornaments, and white-blue starry pilot outfit. | [mizunagare](https://github.com/mizunagare) | [View](./wuthering-waves-aemeath/) |
-| <img src="./ikun-tao/preview.webp" alt="ikun-tao" width="72"> | ikun-tao | `ikun-tao` | 2 | A chibi animated pet derived from the person at the center of a photo, preserving his short black hair, joyful smile, and black hoodie while bringing energetic suspender-dance moves to life. | [GitXMING](https://github.com/GitXMING) | [View](./ikun-tao/) |
+| <img src="./original-taotao/preview.webp" alt="taotao" width="72"> | taotao | `original-taotao` | 2 | taotao is an original IT mascot for the developer community, featuring short black hair, a radiant smile, and a black hoodie, with upbeat suspender-dance moves that bring energy and companionship to every coding session. | [GitXMING](https://github.com/GitXMING) | [View](./original-taotao/) |
 
 ## Usage
 
@@ -71,7 +71,7 @@ Install the Codex pet `genshin-impact-keqing` for me:
 
 ## Directory Structure
 
-Each pet lives in its own directory. The directory name must match the `id` in `pet.json` and use lowercase kebab-case. Franchise characters should preferably use `<series>-<character-or-form>`, such as `genshin-impact-keqing` or `naruto-six-paths`; original characters may use a short, stable name such as `ikun-tao`.
+Each pet lives in its own directory. The directory name must match the `id` in `pet.json` and use lowercase kebab-case. Franchise characters should preferably use `<series>-<character-or-form>`, such as `genshin-impact-keqing` or `naruto-six-paths`; original characters may use `original-<name>`, such as `original-taotao`.
 
 ```text
 codex-pets/

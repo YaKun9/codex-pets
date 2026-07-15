@@ -15,7 +15,7 @@
 | <img src="./wuthering-waves-iuno/preview.webp" alt="尤诺" width="72"> | 尤诺 | `wuthering-waves-iuno` | 2 | 《鸣潮》月相主题共鸣者尤诺的灵动优雅 Q 版 Codex 宠物，保留深蓝渐变长发、金色头饰与月环意象。 | [yanhuuo](https://github.com/yanhuuo) | [查看](./wuthering-waves-iuno/) |
 | <img src="./wuthering-waves-suisui/preview.webp" alt="穗穗" width="72"> | 穗穗 | `wuthering-waves-suisui` | 2 | 《鸣潮》穗穗的温婉灵动 Q 版 Codex 宠物，保留金白长发、白金长旗袍前襟、蓝金水袖、水扇与红色饰件。 | [mizunagare](https://github.com/mizunagare) | [查看](./wuthering-waves-suisui/) |
 | <img src="./wuthering-waves-aemeath/preview.webp" alt="爱弥斯" width="72"> | 爱弥斯 | `wuthering-waves-aemeath` | 2 | 《鸣潮》爱弥斯的星海歌姬风 Q 版 Codex 宠物，保留粉色长马尾、金色眼眸、青色晶体发饰与白蓝星空驾驶员礼服。 | [mizunagare](https://github.com/mizunagare) | [查看](./wuthering-waves-aemeath/) |
-| <img src="./ikun-tao/preview.webp" alt="ikun-tao" width="72"> | ikun-tao | `ikun-tao` | 2 | 从照片中间人物提炼的 Q 版动画宠物，保留短黑发、开怀笑脸与黑色连帽衫，以夸张的背带舞动作展现活力。 | [GitXMING](https://github.com/GitXMING) | [查看](./ikun-tao/) |
+| <img src="./original-taotao/preview.webp" alt="taotao" width="72"> | taotao | `original-taotao` | 2 | taotao 是一只面向开发者社区的原创 IT 吉祥物，拥有短黑发、灿烂笑容和黑色连帽衫，以阳光开朗的形象与活力十足的背带舞陪伴每一次编码。 | [GitXMING](https://github.com/GitXMING) | [查看](./original-taotao/) |
 
 ## 使用方式
 
@@ -71,7 +71,7 @@ cp -R "./$PET_ID" "$CODEX_HOME/pets/"
 
 ## 目录结构
 
-每个宠物使用独立目录，目录名应与 `pet.json` 中的 `id` 一致，并采用小写 kebab-case。作品角色推荐使用 `<作品>-<角色或形态>`，例如 `genshin-impact-keqing`、`naruto-six-paths`；原创形象可使用简短且稳定的名称，例如 `ikun-tao`。
+每个宠物使用独立目录，目录名应与 `pet.json` 中的 `id` 一致，并采用小写 kebab-case。作品角色推荐使用 `<作品>-<角色或形态>`，例如 `genshin-impact-keqing`、`naruto-six-paths`；原创形象可使用 `original-<名称>`，例如 `original-taotao`。
 
 ```text
 codex-pets/

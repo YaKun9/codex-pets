@@ -79,12 +79,12 @@ const pets = [
     color: "255, 129, 197"
   },
   {
-    id: "ikun-tao",
+    id: "original-taotao",
     series: "original",
-    name: { zh: "ikun-tao", en: "ikun-tao" },
+    name: { zh: "taotao", en: "taotao" },
     description: {
-      zh: "从照片中间人物提炼的 Q 版动画宠物，保留短黑发、开怀笑脸与黑色连帽衫，以夸张的背带舞动作展现活力。",
-      en: "A joyful chibi pet based on the person at the center of a photo, brought to life with energetic suspender-dance moves."
+      zh: "taotao 是一只面向开发者社区的原创 IT 吉祥物，以阳光开朗的形象与活力十足的背带舞陪伴每一次编码。",
+      en: "taotao is an original IT mascot for developers, bringing upbeat suspender-dance energy to every coding session."
     },
     contributor: "GitXMING",
     color: "232, 162, 86"
