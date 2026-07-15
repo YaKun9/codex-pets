@@ -9,6 +9,7 @@ const pets = [
       zh: "《原神》刻晴的官方设定风 Q 版 Codex 宠物，干练优雅，带有鲜明的雷元素气质。",
       en: "A poised chibi Codex pet inspired by Keqing from Genshin Impact, with her unmistakable Electro style."
     },
+    licenseType: "fan-noncommercial",
     contributor: "YaKun9",
     color: "181, 142, 255"
   },
@@ -20,6 +21,7 @@ const pets = [
       zh: "《原神》神里绫华的官方设定风 Q 版宠物，优雅端庄，保留霜华气质与标志性的白蓝和服甲胄造型。",
       en: "An elegant chibi Kamisato Ayaka with her silver ponytail, blue-white armored kimono, and graceful Cryo poise."
     },
+    licenseType: "fan-noncommercial",
     contributor: "YaKun9",
     color: "132, 192, 255"
   },
@@ -31,6 +33,7 @@ const pets = [
       zh: "鸣人六道仙人形态的 Q 版动画宠物，金色查克拉外衣与六道纹样醒目，勇敢而温暖。",
       en: "A warmhearted chibi pet of Naruto in Six Paths Sage Mode, wrapped in a striking golden chakra cloak."
     },
+    licenseType: "fan-noncommercial",
     contributor: "GitXMING",
     color: "255, 184, 64"
   },
@@ -42,6 +45,7 @@ const pets = [
       zh: "《崩坏：星穹铁道》爻光的联名摇一摇灵感 Q 版宠物，保留银白长发与青蓝孔雀羽饰。",
       en: "A chibi Codex pet inspired by Yaoguang's Yaoyao interaction, featuring silver hair and peacock ornaments."
     },
+    licenseType: "fan-noncommercial",
     contributor: "YaKun9",
     color: "84, 220, 211"
   },
@@ -53,6 +57,7 @@ const pets = [
       zh: "《崩坏：星穹铁道》黄泉的精美 Q 版宠物，冷艳沉静，携长刀并带有红白雷光拔刀演出。",
       en: "A polished chibi Acheron with a cool composure, long blade, and red-and-white lightning draw animation."
     },
+    licenseType: "fan-noncommercial",
     contributor: "YaKun9",
     color: "244, 86, 132"
   },
@@ -64,6 +69,7 @@ const pets = [
       zh: "《鸣潮》月相主题共鸣者尤诺的灵动优雅 Q 版宠物，保留深蓝渐变长发与月环意象。",
       en: "An elegant chibi Iuno from Wuthering Waves, preserving her deep-blue hair and signature moon-ring motif."
     },
+    licenseType: "fan-noncommercial",
     contributor: "yanhuuo",
     color: "91, 178, 255"
   },
@@ -75,6 +81,7 @@ const pets = [
       zh: "《鸣潮》穗穗的温婉灵动 Q 版宠物，保留金白长发、蓝金水袖、水扇与红色饰件。",
       en: "A gentle and lively chibi Suisui, featuring gold-white hair, flowing blue sleeves, and her water fan."
     },
+    licenseType: "fan-noncommercial",
     contributor: "mizunagare",
     color: "104, 211, 235"
   },
@@ -86,6 +93,7 @@ const pets = [
       zh: "《鸣潮》爱弥斯的星海歌姬风 Q 版宠物，保留粉色长马尾、金色眼眸与星空驾驶员礼服。",
       en: "A polished chibi Aemeath with a pink ponytail, golden eyes, and her white-blue starry pilot outfit."
     },
+    licenseType: "fan-noncommercial",
     contributor: "mizunagare",
     color: "255, 129, 197"
   },
@@ -97,6 +105,7 @@ const pets = [
       zh: "涛涛是一个面向开发者社区的原创 IT 吉祥物，以阳光开朗的形象与活力十足的背带舞陪伴每一次编码。",
       en: "Taotao is an original IT mascot for developers, bringing upbeat suspender-dance energy to every coding session."
     },
+    licenseType: "cc-by-nc-sa",
     contributor: "GitXMING",
     color: "232, 162, 86"
   },
@@ -108,6 +117,7 @@ const pets = [
       zh: "篮球哥哥是一个以宗主经典篮球舞台形象为原型的原创宠物，保留蓬松中分发型、黑色高领、白色背带与篮球舞步等标志性元素。",
       en: "Basketball Bro is an original pet inspired by Zongzhu's iconic basketball-stage look, with center-parted hair, a black turtleneck, white suspenders, and signature ball-handling dance moves."
     },
+    licenseType: "cc-by-nc-sa",
     contributor: "YaKun9",
     color: "255, 190, 45"
   }
@@ -154,6 +164,8 @@ const translations = {
     allSeries: "全部",
     copyPrompt: "复制 AI 安装提示词",
     viewFiles: "查看文件",
+    assetLicense: "素材许可",
+    viewFullLicense: "查看完整许可",
     contributedBy: "贡献者",
     copied: "已复制到剪贴板",
     promptCopied: "安装提示词已复制"
@@ -198,6 +210,8 @@ const translations = {
     allSeries: "All",
     copyPrompt: "Copy AI install prompt",
     viewFiles: "View files",
+    assetLicense: "Asset license",
+    viewFullLicense: "View full license",
     contributedBy: "By",
     copied: "Copied to clipboard",
     promptCopied: "Install prompt copied"
@@ -210,6 +224,29 @@ const seriesLabels = {
   starrail: { zh: "崩坏：星穹铁道", en: "Honkai: Star Rail" },
   wuthering: { zh: "鸣潮", en: "Wuthering Waves" },
   original: { zh: "原创", en: "Original" }
+};
+
+const licenseTypes = {
+  "fan-noncommercial": {
+    tone: "fan",
+    icon: "shield",
+    label: { zh: "同人 · 非商用", en: "Fan · Non-commercial" },
+    title: { zh: "同人素材非商业许可", en: "Fan asset non-commercial permission" },
+    description: {
+      zh: "允许非商业下载、使用、修改和分享；禁止商用、出售、付费分发和转授权。第三方角色权利归原权利人。",
+      en: "Non-commercial download, use, modification, and sharing are permitted. Commercial use, sale, paid distribution, and sublicensing are prohibited. Third-party character rights remain with their owners."
+    }
+  },
+  "cc-by-nc-sa": {
+    tone: "original",
+    icon: "cc",
+    label: { zh: "CC BY-NC-SA", en: "CC BY-NC-SA" },
+    title: { zh: "CC BY-NC-SA 4.0", en: "CC BY-NC-SA 4.0" },
+    description: {
+      zh: "允许非商业使用、修改和分享；需要署名，修改版本须采用相同许可。",
+      en: "Non-commercial use, modification, and sharing are permitted with attribution. Adaptations must use the same license."
+    }
+  }
 };
 
 const installCommands = {
@@ -248,6 +285,14 @@ let toastTimer;
 
 function getText(key) {
   return translations[state.language][key];
+}
+
+function renderLicenseIcon(license) {
+  if (license.icon === "cc") {
+    return '<span class="license-mark" aria-hidden="true">CC</span>';
+  }
+
+  return '<svg class="license-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 19 6v5c0 4.6-2.8 8.5-7 10-4.2-1.5-7-5.4-7-10V6l7-3Z"/><path d="m9 12 2 2 4-4"/></svg>';
 }
 
 function renderRandomHeroPets() {
@@ -308,35 +353,56 @@ function renderPets() {
     return matchesSeries && (!query || haystack.includes(query));
   });
 
-  petGrid.innerHTML = visiblePets.map((pet) => `
-    <article class="pet-card" style="--pet-rgb: ${pet.color}">
-      <div class="pet-visual">
-        <span class="series-pill">${seriesLabels[pet.series][state.language]}</span>
-        <span class="version-pill">v2</span>
-        <img src="./${pet.id}/preview.webp" alt="${pet.name[state.language]}" loading="lazy" width="192" height="208">
-      </div>
-      <div class="pet-content">
-        <div class="pet-title-row">
-          <div>
-            <h3>${pet.name[state.language]}</h3>
-            <span class="pet-id">${pet.id}</span>
+  petGrid.innerHTML = visiblePets.map((pet) => {
+    const license = licenseTypes[pet.licenseType];
+    const tooltipId = `license-tooltip-${pet.id}`;
+
+    return `
+      <article class="pet-card" style="--pet-rgb: ${pet.color}">
+        <div class="pet-visual">
+          <span class="series-pill">${seriesLabels[pet.series][state.language]}</span>
+          <span class="version-pill">v2</span>
+          <img src="./${pet.id}/preview.webp" alt="${pet.name[state.language]}" loading="lazy" width="192" height="208">
+        </div>
+        <div class="pet-content">
+          <div class="pet-title-row">
+            <div>
+              <h3>${pet.name[state.language]}</h3>
+              <span class="pet-id">${pet.id}</span>
+            </div>
+          </div>
+          <p class="pet-description">${pet.description[state.language]}</p>
+          <div class="pet-meta">
+            <div class="pet-meta-row">
+              <span>${getText("assetLicense")}</span>
+              <span class="license-wrap license-${license.tone}">
+                <a class="license-badge" href="${repositoryUrl}/blob/main/${pet.id}/LICENSE.md" target="_blank" rel="noreferrer" aria-describedby="${tooltipId}">
+                  ${renderLicenseIcon(license)}
+                  <span>${license.label[state.language]}</span>
+                </a>
+                <span class="license-tooltip" id="${tooltipId}" role="tooltip">
+                  <strong>${license.title[state.language]}</strong>
+                  <span>${license.description[state.language]}</span>
+                  <span class="license-tooltip-link">${getText("viewFullLicense")} ↗</span>
+                </span>
+              </span>
+            </div>
+            <div class="pet-meta-row">
+              <span>${getText("contributedBy")}</span>
+              <a class="creator" href="https://github.com/${pet.contributor}" target="_blank" rel="noreferrer">
+                <span class="creator-avatar">${pet.contributor.slice(0, 1).toUpperCase()}</span>
+                <span>${pet.contributor}</span>
+              </a>
+            </div>
+          </div>
+          <div class="pet-actions">
+            <button type="button" data-copy-prompt="${pet.id}">${getText("copyPrompt")}</button>
+            <a href="${repositoryUrl}/tree/main/${pet.id}" target="_blank" rel="noreferrer" title="${getText("viewFiles")}" aria-label="${getText("viewFiles")}">↗</a>
           </div>
         </div>
-        <p class="pet-description">${pet.description[state.language]}</p>
-        <div class="pet-meta">
-          <span>${getText("contributedBy")}</span>
-          <a class="creator" href="https://github.com/${pet.contributor}" target="_blank" rel="noreferrer">
-            <span class="creator-avatar">${pet.contributor.slice(0, 1).toUpperCase()}</span>
-            <span>${pet.contributor}</span>
-          </a>
-        </div>
-        <div class="pet-actions">
-          <button type="button" data-copy-prompt="${pet.id}">${getText("copyPrompt")}</button>
-          <a href="${repositoryUrl}/tree/main/${pet.id}" target="_blank" rel="noreferrer" title="${getText("viewFiles")}" aria-label="${getText("viewFiles")}">↗</a>
-        </div>
-      </div>
-    </article>
-  `).join("");
+      </article>
+    `;
+  }).join("");
 
   emptyState.hidden = visiblePets.length !== 0;
 

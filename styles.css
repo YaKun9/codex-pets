@@ -796,13 +796,126 @@ input:focus-visible {
 
 .pet-meta {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  flex-direction: column;
+  gap: 10px;
   margin-top: auto;
   padding-top: 15px;
   border-top: 1px solid var(--line);
   color: var(--muted);
   font-size: 11px;
+}
+
+.pet-meta-row {
+  display: flex;
+  min-height: 24px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.license-wrap {
+  position: relative;
+  z-index: 6;
+  display: inline-flex;
+}
+
+.license-wrap.license-fan {
+  --license-rgb: 255, 190, 69;
+}
+
+.license-wrap.license-original {
+  --license-rgb: 185, 255, 102;
+}
+
+.license-badge {
+  display: inline-flex;
+  height: 25px;
+  align-items: center;
+  gap: 6px;
+  padding: 0 8px;
+  color: rgb(var(--license-rgb));
+  border: 1px solid rgba(var(--license-rgb), 0.25);
+  border-radius: 999px;
+  background: rgba(var(--license-rgb), 0.08);
+  font-size: 10px;
+  font-weight: 750;
+  line-height: 1;
+  white-space: nowrap;
+  transition: color 180ms ease, border-color 180ms ease, background 180ms ease;
+}
+
+.license-badge:hover,
+.license-badge:focus-visible {
+  color: #fff;
+  border-color: rgba(var(--license-rgb), 0.48);
+  background: rgba(var(--license-rgb), 0.16);
+}
+
+.license-icon {
+  width: 13px;
+  height: 13px;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.8;
+}
+
+.license-mark {
+  font-size: 8px;
+  font-weight: 900;
+  letter-spacing: -0.05em;
+}
+
+.license-tooltip {
+  position: absolute;
+  right: 0;
+  bottom: calc(100% + 10px);
+  z-index: 8;
+  display: grid;
+  width: min(280px, calc(100vw - 74px));
+  gap: 5px;
+  padding: 12px 13px;
+  color: var(--muted);
+  border: 1px solid rgba(var(--license-rgb), 0.28);
+  border-radius: 11px;
+  background: rgba(8, 11, 20, 0.98);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.42);
+  font-size: 11px;
+  line-height: 1.55;
+  opacity: 0;
+  pointer-events: none;
+  text-align: left;
+  transform: translateY(6px);
+  transition: opacity 160ms ease, transform 160ms ease, visibility 160ms ease;
+  visibility: hidden;
+  white-space: normal;
+}
+
+.license-tooltip::after {
+  position: absolute;
+  top: 100%;
+  right: 20px;
+  content: "";
+  border: 6px solid transparent;
+  border-top-color: rgba(8, 11, 20, 0.98);
+}
+
+.license-tooltip strong {
+  color: var(--text);
+  font-size: 11px;
+}
+
+.license-tooltip-link {
+  color: rgb(var(--license-rgb));
+  font-weight: 700;
+}
+
+.license-wrap:hover .license-tooltip,
+.license-wrap:focus-within .license-tooltip {
+  opacity: 1;
+  transform: translateY(0);
+  visibility: visible;
 }
 
 .creator {
