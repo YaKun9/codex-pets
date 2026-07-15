@@ -4,6 +4,8 @@
 
 一个用于收集和分享 Codex 宠物资源的公开仓库。
 
+网站代码采用 MIT 开源，宠物素材按目录分别授权；完整范围见[许可证与素材权利](#许可证与素材权利)。
+
 > 🌐 **在线图鉴：** [前往 Codex Pets 网站](https://yakun9.github.io/codex-pets/)，浏览宠物预览、筛选作品，并一键复制 AI 安装提示词。
 
 ## 宠物索引
@@ -84,7 +86,8 @@ codex-pets/
 └── <pet-id>/
     ├── pet.json
     ├── preview.webp
-    └── spritesheet.webp
+    ├── spritesheet.webp
+    └── LICENSE.md
 ```
 
 `pet.json` 示例：
@@ -99,11 +102,22 @@ codex-pets/
 }
 ```
 
+## 许可证与素材权利
+
+- 网站代码与仓库级文档采用 [MIT License](./LICENSE)。
+- 各宠物目录中的 `pet.json`、`preview.webp`、`spritesheet.webp` 和其他宠物专属素材不适用 MIT，具体条款见 [ASSETS_LICENSE.md](./ASSETS_LICENSE.md)。
+- 每个宠物目录都必须包含独立的 `LICENSE.md`，该文件是对应素材授权范围的最终依据。
+- 已取得作者明确授权、且由贡献者拥有必要权利的原创宠物素材，按照目录中的 `LICENSE.md` 发布；除非另有说明，原创素材采用 CC BY-NC-SA 4.0。许可仅覆盖贡献者实际拥有的原创创作部分，不包含任何第三方权利。
+- 在适用法律和相关权利人规则允许的范围内，基于第三方角色制作的同人素材可以按照目录中的 `LICENSE.md` 进行非商业下载、使用、复制、修改和分享，包括 Fork 仓库、提交 PR 以及安装到个人 Codex 环境；不得商用、出售、付费分发或转授权。底层角色、名称、设定与商标权利仍归各自权利人所有，本仓库不代表官方授权或背书。
+- 新投稿者提交 PR 前须阅读并同意 [CONTRIBUTING.md](./CONTRIBUTING.md) 中的权利与授权声明。
+
 ## 通过 Pull Request 添加宠物
+
+开始制作前，请先阅读 [CONTRIBUTING.md](./CONTRIBUTING.md) 与 [ASSETS_LICENSE.md](./ASSETS_LICENSE.md)。原创素材投稿默认采用 CC BY-NC-SA 4.0；第三方角色同人作品必须如实说明来源，并确保你拥有提交所需的权利。
 
 1. Fork 本仓库，并克隆你的 Fork。
 2. 从最新的 `main` 创建分支，推荐命名为 `pet/<pet-id>`。
-3. 添加宠物目录、`pet.json`、`spritesheet.webp` 和 `preview.webp`。`preview.webp` 应为 `192×208` 的透明 WebP，并清晰展示宠物形象。
+3. 添加宠物目录、`pet.json`、`spritesheet.webp`、`preview.webp` 和 `LICENSE.md`。`preview.webp` 应为 `192×208` 的透明 WebP，并清晰展示宠物形象；`LICENSE.md` 应与原创或第三方角色素材类型相符。
 4. 在中英文 README 的“宠物索引”中增加对应条目，并在预览列引用该宠物的 `preview.webp`。
 5. 在 `script.js` 的 `pets` 列表中同步宠物名称、中英文介绍、作品分类、贡献者和主题色，确保 GitHub Pages 图鉴能够展示新宠物；新增分类时也要同步 `seriesLabels`。
 6. 提交并推送分支，然后向本仓库的 `main` 分支发起 Pull Request。
@@ -124,6 +138,8 @@ git push -u origin pet/<pet-id>
 - `pet.json` 是有效 JSON，且字段完整。
 - `spritesheetPath` 指向目录中实际存在的精灵图。
 - 宠物目录包含 `192×208` 的透明 `preview.webp`，且预览能够清晰展示宠物形象。
+- 宠物目录包含 `LICENSE.md`，并准确说明作者、素材来源、允许的使用方式和第三方权利边界。
 - 中英文 README 的宠物索引已经同步更新，并正确引用 `preview.webp`。
 - `script.js` 的图鉴条目已同步更新，并使用已存在或新补充的作品分类。
+- PR 说明包含角色来源、素材作者、权利确认和适用的素材许可证。
 - 本次提交只包含当前宠物相关文件。

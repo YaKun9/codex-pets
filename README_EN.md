@@ -4,6 +4,8 @@
 
 A public repository for collecting and sharing Codex pet resources.
 
+The website code is open source under MIT, while pet assets are licensed per directory. See [License and Asset Rights](#license-and-asset-rights) for the exact scope.
+
 > 🌐 **Live catalog:** [Visit the Codex Pets website](https://yakun9.github.io/codex-pets/) to browse pet previews, filter the collection, and copy an AI install prompt.
 
 ## Pet Index
@@ -84,7 +86,8 @@ codex-pets/
 └── <pet-id>/
     ├── pet.json
     ├── preview.webp
-    └── spritesheet.webp
+    ├── spritesheet.webp
+    └── LICENSE.md
 ```
 
 Example `pet.json`:
@@ -99,11 +102,22 @@ Example `pet.json`:
 }
 ```
 
+## License and Asset Rights
+
+- Website code and repository-level documentation are available under the [MIT License](./LICENSE).
+- `pet.json`, `preview.webp`, `spritesheet.webp`, and other pet-specific assets inside pet directories are excluded from MIT. See [ASSETS_LICENSE.md](./ASSETS_LICENSE.md) for their terms.
+- Every pet directory must include its own `LICENSE.md`, which is the authoritative statement of that asset's licensing scope.
+- Original pet assets whose contributors own the necessary rights and have explicitly authorized their use are licensed according to the directory's `LICENSE.md`. Unless otherwise stated, original assets use CC BY-NC-SA 4.0. The license covers only original elements owned by the contributor and does not include third-party rights.
+- To the extent permitted by applicable law and relevant rights-holder policies, fan assets based on third-party characters may be downloaded, used, copied, modified, and shared for non-commercial purposes under the directory's `LICENSE.md`, including forking the repository, submitting Pull Requests, and installing them in a personal Codex environment. Commercial use, sale, paid distribution, and sublicensing are prohibited. Rights in the underlying characters, names, designs, and trademarks remain with their respective rights holders, and this repository does not claim official authorization or endorsement.
+- New contributors must read and accept the rights and licensing declaration in [CONTRIBUTING.md](./CONTRIBUTING.md) before opening a Pull Request.
+
 ## Add a Pet via Pull Request
+
+Before creating a pet, read [CONTRIBUTING.md](./CONTRIBUTING.md) and [ASSETS_LICENSE.md](./ASSETS_LICENSE.md). New original assets are contributed under CC BY-NC-SA 4.0 by default. Third-party character fan works must identify their source, and contributors must have the rights necessary to submit them.
 
 1. Fork this repository and clone your fork.
 2. Create a branch from the latest `main`; the recommended name is `pet/<pet-id>`.
-3. Add the pet directory, `pet.json`, `spritesheet.webp`, and `preview.webp`. The `preview.webp` file must be a transparent `192×208` WebP that clearly shows the pet.
+3. Add the pet directory, `pet.json`, `spritesheet.webp`, `preview.webp`, and `LICENSE.md`. The `preview.webp` file must be a transparent `192×208` WebP that clearly shows the pet. The `LICENSE.md` must match whether the asset is original or based on a third-party character.
 4. Add the pet to the index in both the Chinese and English README files, and reference its `preview.webp` in the preview column.
 5. Add the pet's names, bilingual descriptions, series, contributor, and theme color to the `pets` list in `script.js` so it appears in the GitHub Pages catalog. Also update `seriesLabels` when introducing a new series.
 6. Commit and push the branch, then open a Pull Request targeting this repository's `main` branch.
@@ -124,6 +138,8 @@ Before opening a Pull Request, confirm that:
 - `pet.json` is valid JSON and contains all required fields.
 - `spritesheetPath` points to an existing spritesheet in the pet directory.
 - The pet directory contains a transparent `192×208` `preview.webp` that clearly shows the pet.
+- The pet directory contains a `LICENSE.md` that accurately identifies the creator, source, permitted uses, and third-party rights boundaries.
 - The pet indexes in the Chinese and English README files are both up to date and correctly reference `preview.webp`.
 - The catalog entry in `script.js` is up to date and uses an existing or newly added series label.
+- The PR description identifies the character source, asset creator, rights confirmation, and applicable asset license.
 - The commit contains only files related to the current pet.
