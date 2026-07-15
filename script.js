@@ -120,6 +120,18 @@ const pets = [
     licenseType: "cc-by-nc-sa",
     contributor: "YaKun9",
     color: "255, 190, 45"
+  },
+  {
+    id: "original-xiaoman",
+    series: "original",
+    name: { zh: "小满", en: "Xiaoman" },
+    description: {
+      zh: "小满是一只以中华田园犬为底子的原创 Q 版宠物，圆脸、麦金短毛、奶油胸口和红色织项圈亲切又机灵。",
+      en: "Xiaoman is an original chibi Chinese village dog with a rounded puppy face, wheat-gold coat, cream chest, and red woven collar."
+    },
+    licenseType: "cc-by-nc-sa",
+    contributor: "YaKun9",
+    color: "217, 154, 72"
   }
 ];
 

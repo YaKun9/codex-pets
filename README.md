@@ -22,6 +22,7 @@
 | <img src="./wuthering-waves-aemeath/preview.webp" alt="爱弥斯" width="72"> | 爱弥斯 | `wuthering-waves-aemeath` | 2 | 《鸣潮》爱弥斯的星海歌姬风 Q 版 Codex 宠物，保留粉色长马尾、金色眼眸、青色晶体发饰与白蓝星空驾驶员礼服。 | [mizunagare](https://github.com/mizunagare) | [查看](./wuthering-waves-aemeath/) |
 | <img src="./original-zongzhu-basketball-chicken/preview.webp" alt="篮球哥哥" width="72"> | 篮球哥哥 | `original-zongzhu-basketball-chicken` | 2 | 篮球哥哥是一个以宗主经典篮球舞台形象为原型的原创 Codex 宠物，保留蓬松中分发型、黑色高领、白色背带与篮球舞步等标志性元素。 | [YaKun9](https://github.com/YaKun9) | [查看](./original-zongzhu-basketball-chicken/) |
 | <img src="./original-taotao/preview.webp" alt="涛涛" width="72"> | 涛涛 | `original-taotao` | 2 | 涛涛是一个面向开发者社区的原创 IT 吉祥物，拥有短黑发、灿烂笑容和黑色连帽衫，以阳光开朗的形象与活力十足的背带舞陪伴每一次编码。 | [GitXMING](https://github.com/GitXMING) | [查看](./original-taotao/) |
+| <img src="./original-xiaoman/preview.webp" alt="小满" width="72"> | 小满 | `original-xiaoman` | 2 | 小满是一只以中华田园犬为底子的原创 Q 版 Codex 宠物，拥有圆润幼态的脸、麦金短毛、奶油胸口、机灵立耳与红色织项圈，亲人又可靠。 | [YaKun9](https://github.com/YaKun9) | [查看](./original-xiaoman/) |
 
 ## 使用方式
 
