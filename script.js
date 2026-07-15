@@ -81,10 +81,10 @@ const pets = [
   {
     id: "original-taotao",
     series: "original",
-    name: { zh: "taotao", en: "taotao" },
+    name: { zh: "涛涛", en: "Taotao" },
     description: {
-      zh: "taotao 是一只面向开发者社区的原创 IT 吉祥物，以阳光开朗的形象与活力十足的背带舞陪伴每一次编码。",
-      en: "taotao is an original IT mascot for developers, bringing upbeat suspender-dance energy to every coding session."
+      zh: "涛涛是一只面向开发者社区的原创 IT 吉祥物，以阳光开朗的形象与活力十足的背带舞陪伴每一次编码。",
+      en: "Taotao is an original IT mascot for developers, bringing upbeat suspender-dance energy to every coding session."
     },
     contributor: "GitXMING",
     color: "232, 162, 86"
