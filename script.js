@@ -77,6 +77,17 @@ const pets = [
     },
     contributor: "mizunagare",
     color: "255, 129, 197"
+  },
+  {
+    id: "ikun-tao",
+    series: "original",
+    name: { zh: "ikun-tao", en: "ikun-tao" },
+    description: {
+      zh: "从照片中间人物提炼的 Q 版动画宠物，保留短黑发、开怀笑脸与黑色连帽衫，以夸张的背带舞动作展现活力。",
+      en: "A joyful chibi pet based on the person at the center of a photo, brought to life with energetic suspender-dance moves."
+    },
+    contributor: "GitXMING",
+    color: "232, 162, 86"
   }
 ];
 
@@ -175,7 +186,8 @@ const seriesLabels = {
   genshin: { zh: "原神", en: "Genshin Impact" },
   naruto: { zh: "火影忍者", en: "Naruto" },
   starrail: { zh: "崩坏：星穹铁道", en: "Honkai: Star Rail" },
-  wuthering: { zh: "鸣潮", en: "Wuthering Waves" }
+  wuthering: { zh: "鸣潮", en: "Wuthering Waves" },
+  original: { zh: "原创", en: "Original" }
 };
 
 const installCommands = {

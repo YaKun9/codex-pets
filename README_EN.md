@@ -15,6 +15,7 @@ A public repository for collecting and sharing Codex pet resources.
 | <img src="./wuthering-waves-iuno/preview.webp" alt="Iuno" width="72"> | Iuno | `wuthering-waves-iuno` | 2 | An elegant chibi Codex pet based on Iuno from *Wuthering Waves*, preserving her deep-blue gradient hair, golden headpiece, and moon-ring motif. | [yanhuuo](https://github.com/yanhuuo) | [View](./wuthering-waves-iuno/) |
 | <img src="./wuthering-waves-suisui/preview.webp" alt="Suisui" width="72"> | Suisui | `wuthering-waves-suisui` | 2 | A gentle and lively chibi Codex pet based on Suisui from *Wuthering Waves*, preserving her gold-and-white hair, long white-and-gold qipao front panel, blue-and-gold sleeves, water fan, and red ornaments. | [mizunagare](https://github.com/mizunagare) | [View](./wuthering-waves-suisui/) |
 | <img src="./wuthering-waves-aemeath/preview.webp" alt="Aemeath" width="72"> | Aemeath | `wuthering-waves-aemeath` | 2 | A polished chibi Codex pet based on Aemeath from *Wuthering Waves*, preserving her long pink ponytail, golden eyes, cyan crystalline hair ornaments, and white-blue starry pilot outfit. | [mizunagare](https://github.com/mizunagare) | [View](./wuthering-waves-aemeath/) |
+| <img src="./ikun-tao/preview.webp" alt="ikun-tao" width="72"> | ikun-tao | `ikun-tao` | 2 | A chibi animated pet derived from the person at the center of a photo, preserving his short black hair, joyful smile, and black hoodie while bringing energetic suspender-dance moves to life. | [GitXMING](https://github.com/GitXMING) | [View](./ikun-tao/) |
 
 ## Usage
 
@@ -70,7 +71,7 @@ Install the Codex pet `genshin-impact-keqing` for me:
 
 ## Directory Structure
 
-Each pet lives in its own directory. The directory name must match the `id` in `pet.json` and use lowercase kebab-case in the form `<series>-<character-or-form>`, such as `genshin-impact-keqing` or `naruto-six-paths`.
+Each pet lives in its own directory. The directory name must match the `id` in `pet.json` and use lowercase kebab-case. Franchise characters should preferably use `<series>-<character-or-form>`, such as `genshin-impact-keqing` or `naruto-six-paths`; original characters may use a short, stable name such as `ikun-tao`.
 
 ```text
 codex-pets/
@@ -100,14 +101,15 @@ Example `pet.json`:
 2. Create a branch from the latest `main`; the recommended name is `pet/<pet-id>`.
 3. Add the pet directory, `pet.json`, `spritesheet.webp`, and `preview.webp`. The `preview.webp` file must be a transparent `192×208` WebP that clearly shows the pet.
 4. Add the pet to the index in both the Chinese and English README files, and reference its `preview.webp` in the preview column.
-5. Commit and push the branch, then open a Pull Request targeting this repository's `main` branch.
+5. Add the pet's names, bilingual descriptions, series, contributor, and theme color to the `pets` list in `script.js` so it appears in the GitHub Pages catalog. Also update `seriesLabels` when introducing a new series.
+6. Commit and push the branch, then open a Pull Request targeting this repository's `main` branch.
 
 ```bash
 git clone https://github.com/<your-name>/codex-pets.git
 cd codex-pets
 git switch -c pet/<pet-id>
 
-git add <pet-id> README.md README_EN.md
+git add <pet-id> README.md README_EN.md script.js
 git commit -m "Add <pet-name> pet"
 git push -u origin pet/<pet-id>
 ```
@@ -119,4 +121,5 @@ Before opening a Pull Request, confirm that:
 - `spritesheetPath` points to an existing spritesheet in the pet directory.
 - The pet directory contains a transparent `192×208` `preview.webp` that clearly shows the pet.
 - The pet indexes in the Chinese and English README files are both up to date and correctly reference `preview.webp`.
+- The catalog entry in `script.js` is up to date and uses an existing or newly added series label.
 - The commit contains only files related to the current pet.
