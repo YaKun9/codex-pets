@@ -15,7 +15,8 @@
 | <img src="./wuthering-waves-iuno/preview.webp" alt="尤诺" width="72"> | 尤诺 | `wuthering-waves-iuno` | 2 | 《鸣潮》月相主题共鸣者尤诺的灵动优雅 Q 版 Codex 宠物，保留深蓝渐变长发、金色头饰与月环意象。 | [yanhuuo](https://github.com/yanhuuo) | [查看](./wuthering-waves-iuno/) |
 | <img src="./wuthering-waves-suisui/preview.webp" alt="穗穗" width="72"> | 穗穗 | `wuthering-waves-suisui` | 2 | 《鸣潮》穗穗的温婉灵动 Q 版 Codex 宠物，保留金白长发、白金长旗袍前襟、蓝金水袖、水扇与红色饰件。 | [mizunagare](https://github.com/mizunagare) | [查看](./wuthering-waves-suisui/) |
 | <img src="./wuthering-waves-aemeath/preview.webp" alt="爱弥斯" width="72"> | 爱弥斯 | `wuthering-waves-aemeath` | 2 | 《鸣潮》爱弥斯的星海歌姬风 Q 版 Codex 宠物，保留粉色长马尾、金色眼眸、青色晶体发饰与白蓝星空驾驶员礼服。 | [mizunagare](https://github.com/mizunagare) | [查看](./wuthering-waves-aemeath/) |
-| <img src="./original-taotao/preview.webp" alt="涛涛" width="72"> | 涛涛 | `original-taotao` | 2 | 涛涛是一只面向开发者社区的原创 IT 吉祥物，拥有短黑发、灿烂笑容和黑色连帽衫，以阳光开朗的形象与活力十足的背带舞陪伴每一次编码。 | [GitXMING](https://github.com/GitXMING) | [查看](./original-taotao/) |
+| <img src="./original-zongzhu-basketball-chicken/preview.webp" alt="篮球哥哥" width="72"> | 篮球哥哥 | `original-zongzhu-basketball-chicken` | 2 | 篮球哥哥是一个以宗主经典篮球舞台形象为原型的原创 Codex 宠物，保留蓬松中分发型、黑色高领、白色背带与篮球舞步等标志性元素。 | [YaKun9](https://github.com/YaKun9) | [查看](./original-zongzhu-basketball-chicken/) |
+| <img src="./original-taotao/preview.webp" alt="涛涛" width="72"> | 涛涛 | `original-taotao` | 2 | 涛涛是一个面向开发者社区的原创 IT 吉祥物，拥有短黑发、灿烂笑容和黑色连帽衫，以阳光开朗的形象与活力十足的背带舞陪伴每一次编码。 | [GitXMING](https://github.com/GitXMING) | [查看](./original-taotao/) |
 
 ## 使用方式
 

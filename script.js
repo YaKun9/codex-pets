@@ -83,11 +83,22 @@ const pets = [
     series: "original",
     name: { zh: "涛涛", en: "Taotao" },
     description: {
-      zh: "涛涛是一只面向开发者社区的原创 IT 吉祥物，以阳光开朗的形象与活力十足的背带舞陪伴每一次编码。",
+      zh: "涛涛是一个面向开发者社区的原创 IT 吉祥物，以阳光开朗的形象与活力十足的背带舞陪伴每一次编码。",
       en: "Taotao is an original IT mascot for developers, bringing upbeat suspender-dance energy to every coding session."
     },
     contributor: "GitXMING",
     color: "232, 162, 86"
+  },
+  {
+    id: "original-zongzhu-basketball-chicken",
+    series: "original",
+    name: { zh: "篮球哥哥", en: "Basketball Bro" },
+    description: {
+      zh: "篮球哥哥是一个以宗主经典篮球舞台形象为原型的原创宠物，保留蓬松中分发型、黑色高领、白色背带与篮球舞步等标志性元素。",
+      en: "Basketball Bro is an original pet inspired by Zongzhu's iconic basketball-stage look, with center-parted hair, a black turtleneck, white suspenders, and signature ball-handling dance moves."
+    },
+    contributor: "YaKun9",
+    color: "255, 190, 45"
   }
 ];
 
