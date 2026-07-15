@@ -6,15 +6,15 @@
 
 ## 宠物索引
 
-| 名称 | ID | 版本 | 介绍 | 贡献者 | 路径 |
-| --- | --- | ---: | --- | --- | --- |
-| 刻晴 | `genshin-impact-keqing` | 2 | 《原神》刻晴的官方设定风 Q 版 Codex 宠物，干练优雅，带有鲜明的雷元素气质。 | [YaKun9](https://github.com/YaKun9) | [查看](./genshin-impact-keqing/) |
-| 六道鸣人 | `naruto-six-paths` | 2 | 鸣人六道仙人形态的 Q 版动画宠物，金色查克拉外衣与六道纹样醒目，勇敢而温暖。 | [GitXMING](https://github.com/GitXMING) | [查看](./naruto-six-paths/) |
-| 爻光·摇摇 | `honkai-star-rail-yaoguang-yaoyao` | 2 | 《崩坏：星穹铁道》爻光的联名摇一摇灵感 Q 版 Codex 宠物，保留银白长发、青蓝孔雀羽饰与仙舟华丽装束。 | [YaKun9](https://github.com/YaKun9) | [查看](./honkai-star-rail-yaoguang-yaoyao/) |
-| 黄泉 | `honkai-star-rail-acheron` | 2 | 《崩坏：星穹铁道》黄泉的精美官方设定风 Q 版 Codex 宠物，冷艳沉静，携长刀并带有红白雷光拔刀演出。 | [YaKun9](https://github.com/YaKun9) | [查看](./honkai-star-rail-acheron/) |
-| 尤诺 | `wuthering-waves-iuno` | 2 | 《鸣潮》月相主题共鸣者尤诺的灵动优雅 Q 版 Codex 宠物，保留深蓝渐变长发、金色头饰与月环意象。 | [yanhuuo](https://github.com/yanhuuo) | [查看](./wuthering-waves-iuno/) |
-| 穗穗 | `wuthering-waves-suisui` | 2 | 《鸣潮》穗穗的温婉灵动 Q 版 Codex 宠物，保留金白长发、白金长旗袍前襟、蓝金水袖、水扇与红色饰件。 | [mizunagare](https://github.com/mizunagare) | [查看](./wuthering-waves-suisui/) |
-| 爱弥斯 | `wuthering-waves-aemeath` | 2 | 《鸣潮》爱弥斯的星海歌姬风 Q 版 Codex 宠物，保留粉色长马尾、金色眼眸、青色晶体发饰与白蓝星空驾驶员礼服。 | [mizunagare](https://github.com/mizunagare) | [查看](./wuthering-waves-aemeath/) |
+| 预览 | 名称 | ID | 版本 | 介绍 | 贡献者 | 路径 |
+| :---: | --- | --- | ---: | --- | --- | --- |
+| <img src="./genshin-impact-keqing/preview.webp" alt="刻晴" width="72"> | 刻晴 | `genshin-impact-keqing` | 2 | 《原神》刻晴的官方设定风 Q 版 Codex 宠物，干练优雅，带有鲜明的雷元素气质。 | [YaKun9](https://github.com/YaKun9) | [查看](./genshin-impact-keqing/) |
+| <img src="./naruto-six-paths/preview.webp" alt="六道鸣人" width="72"> | 六道鸣人 | `naruto-six-paths` | 2 | 鸣人六道仙人形态的 Q 版动画宠物，金色查克拉外衣与六道纹样醒目，勇敢而温暖。 | [GitXMING](https://github.com/GitXMING) | [查看](./naruto-six-paths/) |
+| <img src="./honkai-star-rail-yaoguang-yaoyao/preview.webp" alt="爻光·摇摇" width="72"> | 爻光·摇摇 | `honkai-star-rail-yaoguang-yaoyao` | 2 | 《崩坏：星穹铁道》爻光的联名摇一摇灵感 Q 版 Codex 宠物，保留银白长发、青蓝孔雀羽饰与仙舟华丽装束。 | [YaKun9](https://github.com/YaKun9) | [查看](./honkai-star-rail-yaoguang-yaoyao/) |
+| <img src="./honkai-star-rail-acheron/preview.webp" alt="黄泉" width="72"> | 黄泉 | `honkai-star-rail-acheron` | 2 | 《崩坏：星穹铁道》黄泉的精美官方设定风 Q 版 Codex 宠物，冷艳沉静，携长刀并带有红白雷光拔刀演出。 | [YaKun9](https://github.com/YaKun9) | [查看](./honkai-star-rail-acheron/) |
+| <img src="./wuthering-waves-iuno/preview.webp" alt="尤诺" width="72"> | 尤诺 | `wuthering-waves-iuno` | 2 | 《鸣潮》月相主题共鸣者尤诺的灵动优雅 Q 版 Codex 宠物，保留深蓝渐变长发、金色头饰与月环意象。 | [yanhuuo](https://github.com/yanhuuo) | [查看](./wuthering-waves-iuno/) |
+| <img src="./wuthering-waves-suisui/preview.webp" alt="穗穗" width="72"> | 穗穗 | `wuthering-waves-suisui` | 2 | 《鸣潮》穗穗的温婉灵动 Q 版 Codex 宠物，保留金白长发、白金长旗袍前襟、蓝金水袖、水扇与红色饰件。 | [mizunagare](https://github.com/mizunagare) | [查看](./wuthering-waves-suisui/) |
+| <img src="./wuthering-waves-aemeath/preview.webp" alt="爱弥斯" width="72"> | 爱弥斯 | `wuthering-waves-aemeath` | 2 | 《鸣潮》爱弥斯的星海歌姬风 Q 版 Codex 宠物，保留粉色长马尾、金色眼眸、青色晶体发饰与白蓝星空驾驶员礼服。 | [mizunagare](https://github.com/mizunagare) | [查看](./wuthering-waves-aemeath/) |
 
 ## 使用方式
 
@@ -78,6 +78,7 @@ codex-pets/
 ├── README_EN.md
 └── <pet-id>/
     ├── pet.json
+    ├── preview.webp
     └── spritesheet.webp
 ```
 
@@ -97,8 +98,8 @@ codex-pets/
 
 1. Fork 本仓库，并克隆你的 Fork。
 2. 从最新的 `main` 创建分支，推荐命名为 `pet/<pet-id>`。
-3. 添加宠物目录、`pet.json` 和精灵图。
-4. 在中英文 README 的“宠物索引”中增加对应条目。
+3. 添加宠物目录、`pet.json`、`spritesheet.webp` 和 `preview.webp`。`preview.webp` 应为 `192×208` 的透明 WebP，并清晰展示宠物形象。
+4. 在中英文 README 的“宠物索引”中增加对应条目，并在预览列引用该宠物的 `preview.webp`。
 5. 提交并推送分支，然后向本仓库的 `main` 分支发起 Pull Request。
 
 ```bash
@@ -116,5 +117,6 @@ git push -u origin pet/<pet-id>
 - 宠物目录名与 `pet.json` 的 `id` 一致。
 - `pet.json` 是有效 JSON，且字段完整。
 - `spritesheetPath` 指向目录中实际存在的精灵图。
-- 中英文 README 的宠物索引已经同步更新。
+- 宠物目录包含 `192×208` 的透明 `preview.webp`，且预览能够清晰展示宠物形象。
+- 中英文 README 的宠物索引已经同步更新，并正确引用 `preview.webp`。
 - 本次提交只包含当前宠物相关文件。

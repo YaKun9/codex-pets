@@ -6,15 +6,15 @@ A public repository for collecting and sharing Codex pet resources.
 
 ## Pet Index
 
-| Name | ID | Version | Description | Contributor | Path |
-| --- | --- | ---: | --- | --- | --- |
-| Keqing | `genshin-impact-keqing` | 2 | A chibi Codex pet based on Keqing's official *Genshin Impact* design, combining poised elegance with a distinctive Electro style. | [YaKun9](https://github.com/YaKun9) | [View](./genshin-impact-keqing/) |
-| Six Paths Naruto | `naruto-six-paths` | 2 | A chibi animated pet of Naruto in Six Paths Sage Mode, featuring a striking golden chakra cloak and Six Paths markings, with a brave and warmhearted presence. | [GitXMING](https://github.com/GitXMING) | [View](./naruto-six-paths/) |
-| Yaoguang · Yaoyao | `honkai-star-rail-yaoguang-yaoyao` | 2 | A chibi Codex pet inspired by Yaoguang's Yaoyao-themed shake interaction in *Honkai: Star Rail*, retaining her long silver-white hair, teal-blue peacock-feather ornaments, and ornate Xianzhou attire. | [YaKun9](https://github.com/YaKun9) | [View](./honkai-star-rail-yaoguang-yaoyao/) |
-| Acheron | `honkai-star-rail-acheron` | 2 | A polished official-design-inspired chibi Codex pet of Acheron from *Honkai: Star Rail*, featuring her cool composure, long blade, and a red-and-white ultimate draw animation. | [YaKun9](https://github.com/YaKun9) | [View](./honkai-star-rail-acheron/) |
-| Iuno | `wuthering-waves-iuno` | 2 | An elegant chibi Codex pet based on Iuno from *Wuthering Waves*, preserving her deep-blue gradient hair, golden headpiece, and moon-ring motif. | [yanhuuo](https://github.com/yanhuuo) | [View](./wuthering-waves-iuno/) |
-| Suisui | `wuthering-waves-suisui` | 2 | A gentle and lively chibi Codex pet based on Suisui from *Wuthering Waves*, preserving her gold-and-white hair, long white-and-gold qipao front panel, blue-and-gold sleeves, water fan, and red ornaments. | [mizunagare](https://github.com/mizunagare) | [View](./wuthering-waves-suisui/) |
-| Aemeath | `wuthering-waves-aemeath` | 2 | A polished chibi Codex pet based on Aemeath from *Wuthering Waves*, preserving her long pink ponytail, golden eyes, cyan crystalline hair ornaments, and white-blue starry pilot outfit. | [mizunagare](https://github.com/mizunagare) | [View](./wuthering-waves-aemeath/) |
+| Preview | Name | ID | Version | Description | Contributor | Path |
+| :---: | --- | --- | ---: | --- | --- | --- |
+| <img src="./genshin-impact-keqing/preview.webp" alt="Keqing" width="72"> | Keqing | `genshin-impact-keqing` | 2 | A chibi Codex pet based on Keqing's official *Genshin Impact* design, combining poised elegance with a distinctive Electro style. | [YaKun9](https://github.com/YaKun9) | [View](./genshin-impact-keqing/) |
+| <img src="./naruto-six-paths/preview.webp" alt="Six Paths Naruto" width="72"> | Six Paths Naruto | `naruto-six-paths` | 2 | A chibi animated pet of Naruto in Six Paths Sage Mode, featuring a striking golden chakra cloak and Six Paths markings, with a brave and warmhearted presence. | [GitXMING](https://github.com/GitXMING) | [View](./naruto-six-paths/) |
+| <img src="./honkai-star-rail-yaoguang-yaoyao/preview.webp" alt="Yaoguang · Yaoyao" width="72"> | Yaoguang · Yaoyao | `honkai-star-rail-yaoguang-yaoyao` | 2 | A chibi Codex pet inspired by Yaoguang's Yaoyao-themed shake interaction in *Honkai: Star Rail*, retaining her long silver-white hair, teal-blue peacock-feather ornaments, and ornate Xianzhou attire. | [YaKun9](https://github.com/YaKun9) | [View](./honkai-star-rail-yaoguang-yaoyao/) |
+| <img src="./honkai-star-rail-acheron/preview.webp" alt="Acheron" width="72"> | Acheron | `honkai-star-rail-acheron` | 2 | A polished official-design-inspired chibi Codex pet of Acheron from *Honkai: Star Rail*, featuring her cool composure, long blade, and a red-and-white ultimate draw animation. | [YaKun9](https://github.com/YaKun9) | [View](./honkai-star-rail-acheron/) |
+| <img src="./wuthering-waves-iuno/preview.webp" alt="Iuno" width="72"> | Iuno | `wuthering-waves-iuno` | 2 | An elegant chibi Codex pet based on Iuno from *Wuthering Waves*, preserving her deep-blue gradient hair, golden headpiece, and moon-ring motif. | [yanhuuo](https://github.com/yanhuuo) | [View](./wuthering-waves-iuno/) |
+| <img src="./wuthering-waves-suisui/preview.webp" alt="Suisui" width="72"> | Suisui | `wuthering-waves-suisui` | 2 | A gentle and lively chibi Codex pet based on Suisui from *Wuthering Waves*, preserving her gold-and-white hair, long white-and-gold qipao front panel, blue-and-gold sleeves, water fan, and red ornaments. | [mizunagare](https://github.com/mizunagare) | [View](./wuthering-waves-suisui/) |
+| <img src="./wuthering-waves-aemeath/preview.webp" alt="Aemeath" width="72"> | Aemeath | `wuthering-waves-aemeath` | 2 | A polished chibi Codex pet based on Aemeath from *Wuthering Waves*, preserving her long pink ponytail, golden eyes, cyan crystalline hair ornaments, and white-blue starry pilot outfit. | [mizunagare](https://github.com/mizunagare) | [View](./wuthering-waves-aemeath/) |
 
 ## Usage
 
@@ -78,6 +78,7 @@ codex-pets/
 ├── README_EN.md
 └── <pet-id>/
     ├── pet.json
+    ├── preview.webp
     └── spritesheet.webp
 ```
 
@@ -97,8 +98,8 @@ Example `pet.json`:
 
 1. Fork this repository and clone your fork.
 2. Create a branch from the latest `main`; the recommended name is `pet/<pet-id>`.
-3. Add the pet directory, `pet.json`, and spritesheet.
-4. Add the pet to the index in both the Chinese and English README files.
+3. Add the pet directory, `pet.json`, `spritesheet.webp`, and `preview.webp`. The `preview.webp` file must be a transparent `192×208` WebP that clearly shows the pet.
+4. Add the pet to the index in both the Chinese and English README files, and reference its `preview.webp` in the preview column.
 5. Commit and push the branch, then open a Pull Request targeting this repository's `main` branch.
 
 ```bash
@@ -116,5 +117,6 @@ Before opening a Pull Request, confirm that:
 - The pet directory name matches the `id` in `pet.json`.
 - `pet.json` is valid JSON and contains all required fields.
 - `spritesheetPath` points to an existing spritesheet in the pet directory.
-- The pet indexes in the Chinese and English README files are both up to date.
+- The pet directory contains a transparent `192×208` `preview.webp` that clearly shows the pet.
+- The pet indexes in the Chinese and English README files are both up to date and correctly reference `preview.webp`.
 - The commit contains only files related to the current pet.
