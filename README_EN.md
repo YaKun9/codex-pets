@@ -14,6 +14,7 @@ A public repository for collecting and sharing Codex pet resources.
 | Acheron | `honkai-star-rail-acheron` | 2 | A polished official-design-inspired chibi Codex pet of Acheron from *Honkai: Star Rail*, featuring her cool composure, long blade, and a red-and-white ultimate draw animation. | [YaKun9](https://github.com/YaKun9) | [View](./honkai-star-rail-acheron/) |
 | Iuno | `wuthering-waves-iuno` | 2 | An elegant chibi Codex pet based on Iuno from *Wuthering Waves*, preserving her deep-blue gradient hair, golden headpiece, and moon-ring motif. | [yanhuuo](https://github.com/yanhuuo) | [View](./wuthering-waves-iuno/) |
 | Suisui | `wuthering-waves-suisui` | 2 | A gentle and lively chibi Codex pet based on Suisui from *Wuthering Waves*, preserving her gold-and-white hair, long white-and-gold qipao front panel, blue-and-gold sleeves, water fan, and red ornaments. | [mizunagare](https://github.com/mizunagare) | [View](./wuthering-waves-suisui/) |
+| Aemeath | `wuthering-waves-aemeath` | 2 | A polished chibi Codex pet based on Aemeath from *Wuthering Waves*, preserving her long pink ponytail, golden eyes, cyan crystalline hair ornaments, and white-blue starry pilot outfit. | [mizunagare](https://github.com/mizunagare) | [View](./wuthering-waves-aemeath/) |
 
 ## Usage
 
