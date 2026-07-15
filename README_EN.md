@@ -4,6 +4,8 @@
 
 A public repository for collecting and sharing Codex pet resources.
 
+> 🌐 **Live catalog:** [Visit the Codex Pets website](https://yakun9.github.io/codex-pets/) to browse pet previews, filter the collection, and copy an AI install prompt.
+
 ## Pet Index
 
 | Preview | Name | ID | Version | Description | Contributor | Path |
