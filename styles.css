@@ -515,34 +515,26 @@ input:focus-visible {
 .pet-aura {
   position: absolute;
   inset: 20px 5px 0;
-  background: radial-gradient(circle, rgba(140, 119, 255, 0.35), transparent 68%);
+  background: radial-gradient(circle, rgba(var(--pet-color, 140, 119, 255), 0.32), transparent 68%);
   border-radius: 50%;
   filter: blur(7px);
 }
 
-.pet-keqing {
+.pet-slot-one {
   top: 1%;
   left: 4%;
 }
 
-.pet-acheron {
+.pet-slot-two {
   right: -2%;
   bottom: 5%;
   animation-delay: -1.7s;
 }
 
-.pet-acheron .pet-aura {
-  background: radial-gradient(circle, rgba(255, 83, 126, 0.29), transparent 68%);
-}
-
-.pet-iuno {
+.pet-slot-three {
   right: 2%;
   top: 0;
   animation-delay: -3.1s;
-}
-
-.pet-iuno .pet-aura {
-  background: radial-gradient(circle, rgba(89, 217, 255, 0.26), transparent 68%);
 }
 
 .star {

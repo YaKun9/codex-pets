@@ -231,11 +231,30 @@ const languageLabel = document.querySelector("#languageLabel");
 const installCode = document.querySelector("#installCode");
 const codeLabel = document.querySelector("#codeLabel");
 const toast = document.querySelector("#toast");
+const heroPetSlots = [...document.querySelectorAll("[data-hero-pet]")];
 
 let toastTimer;
 
 function getText(key) {
   return translations[state.language][key];
+}
+
+function renderRandomHeroPets() {
+  const randomizedPets = [...pets];
+
+  for (let index = randomizedPets.length - 1; index > 0; index -= 1) {
+    const randomIndex = Math.floor(Math.random() * (index + 1));
+    [randomizedPets[index], randomizedPets[randomIndex]] = [randomizedPets[randomIndex], randomizedPets[index]];
+  }
+
+  heroPetSlots.forEach((slot, index) => {
+    const pet = randomizedPets[index];
+    const image = slot.querySelector("img");
+
+    slot.dataset.heroPet = pet.id;
+    slot.style.setProperty("--pet-color", pet.color);
+    image.src = `./${pet.id}/preview.webp`;
+  });
 }
 
 function showToast(message) {
@@ -382,5 +401,6 @@ document.querySelector("#petCount").textContent = String(pets.length);
 document.querySelector("#worldCount").textContent = String(new Set(pets.map((pet) => pet.series)).size);
 document.querySelector("#creatorCount").textContent = String(new Set(pets.map((pet) => pet.contributor)).size);
 
+renderRandomHeroPets();
 renderInstallCode();
 renderTranslations();
