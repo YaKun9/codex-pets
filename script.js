@@ -13,6 +13,17 @@ const pets = [
     color: "181, 142, 255"
   },
   {
+    id: "genshin-impact-kamisato-ayaka",
+    series: "genshin",
+    name: { zh: "神里绫华", en: "Kamisato Ayaka" },
+    description: {
+      zh: "《原神》神里绫华的官方设定风 Q 版宠物，优雅端庄，保留霜华气质与标志性的白蓝和服甲胄造型。",
+      en: "An elegant chibi Kamisato Ayaka with her silver ponytail, blue-white armored kimono, and graceful Cryo poise."
+    },
+    contributor: "YaKun9",
+    color: "132, 192, 255"
+  },
+  {
     id: "naruto-six-paths",
     series: "naruto",
     name: { zh: "六道鸣人", en: "Six Paths Naruto" },

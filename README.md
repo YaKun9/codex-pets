@@ -11,6 +11,7 @@
 | 预览 | 名称 | ID | 版本 | 介绍 | 贡献者 | 路径 |
 | :---: | --- | --- | ---: | --- | --- | --- |
 | <img src="./genshin-impact-keqing/preview.webp" alt="刻晴" width="72"> | 刻晴 | `genshin-impact-keqing` | 2 | 《原神》刻晴的官方设定风 Q 版 Codex 宠物，干练优雅，带有鲜明的雷元素气质。 | [YaKun9](https://github.com/YaKun9) | [查看](./genshin-impact-keqing/) |
+| <img src="./genshin-impact-kamisato-ayaka/preview.webp" alt="神里绫华" width="72"> | 神里绫华 | `genshin-impact-kamisato-ayaka` | 2 | 《原神》神里绫华的官方设定风 Q 版 Codex 宠物，优雅端庄，保留霜华气质与标志性的白蓝和服甲胄造型。 | [YaKun9](https://github.com/YaKun9) | [查看](./genshin-impact-kamisato-ayaka/) |
 | <img src="./naruto-six-paths/preview.webp" alt="六道鸣人" width="72"> | 六道鸣人 | `naruto-six-paths` | 2 | 鸣人六道仙人形态的 Q 版动画宠物，金色查克拉外衣与六道纹样醒目，勇敢而温暖。 | [GitXMING](https://github.com/GitXMING) | [查看](./naruto-six-paths/) |
 | <img src="./honkai-star-rail-yaoguang-yaoyao/preview.webp" alt="爻光·摇摇" width="72"> | 爻光·摇摇 | `honkai-star-rail-yaoguang-yaoyao` | 2 | 《崩坏：星穹铁道》爻光的联名摇一摇灵感 Q 版 Codex 宠物，保留银白长发、青蓝孔雀羽饰与仙舟华丽装束。 | [YaKun9](https://github.com/YaKun9) | [查看](./honkai-star-rail-yaoguang-yaoyao/) |
 | <img src="./honkai-star-rail-acheron/preview.webp" alt="黄泉" width="72"> | 黄泉 | `honkai-star-rail-acheron` | 2 | 《崩坏：星穹铁道》黄泉的精美官方设定风 Q 版 Codex 宠物，冷艳沉静，携长刀并带有红白雷光拔刀演出。 | [YaKun9](https://github.com/YaKun9) | [查看](./honkai-star-rail-acheron/) |
