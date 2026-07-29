@@ -12,6 +12,7 @@
 
 | 预览 | 名称 | ID | 版本 | 介绍 | 贡献者 | 路径 |
 | :---: | --- | --- | ---: | --- | --- | --- |
+| <img src="./chinese-paladin-liu-yifei-zhao-linger/preview.webp" alt="刘亦菲·赵灵儿" width="72"> | 刘亦菲·赵灵儿 | `chinese-paladin-liu-yifei-zhao-linger` | 2 | 刘亦菲在 2005 版《仙剑奇侠传》中赵灵儿造型的真人写实 Codex 宠物，保留清雅眉眼、半束长发与白浅玉色纱裙，不采用 Q 版比例。 | [YaKun9](https://github.com/YaKun9) | [查看](./chinese-paladin-liu-yifei-zhao-linger/) |
 | <img src="./genshin-impact-keqing/preview.webp" alt="刻晴" width="72"> | 刻晴 | `genshin-impact-keqing` | 2 | 《原神》刻晴的官方设定风 Q 版 Codex 宠物，干练优雅，带有鲜明的雷元素气质。 | [YaKun9](https://github.com/YaKun9) | [查看](./genshin-impact-keqing/) |
 | <img src="./genshin-impact-kamisato-ayaka/preview.webp" alt="神里绫华" width="72"> | 神里绫华 | `genshin-impact-kamisato-ayaka` | 2 | 《原神》神里绫华的官方设定风 Q 版 Codex 宠物，优雅端庄，保留霜华气质与标志性的白蓝和服甲胄造型。 | [YaKun9](https://github.com/YaKun9) | [查看](./genshin-impact-kamisato-ayaka/) |
 | <img src="./naruto-six-paths/preview.webp" alt="六道鸣人" width="72"> | 六道鸣人 | `naruto-six-paths` | 2 | 鸣人六道仙人形态的 Q 版动画宠物，金色查克拉外衣与六道纹样醒目，勇敢而温暖。 | [GitXMING](https://github.com/GitXMING) | [查看](./naruto-six-paths/) |

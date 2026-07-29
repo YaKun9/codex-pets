@@ -2,6 +2,18 @@ const repositoryUrl = "https://github.com/YaKun9/codex-pets";
 
 const pets = [
   {
+    id: "chinese-paladin-liu-yifei-zhao-linger",
+    series: "chinesePaladin",
+    name: { zh: "刘亦菲·赵灵儿", en: "Liu Yifei · Zhao Ling'er" },
+    description: {
+      zh: "刘亦菲在 2005 版《仙剑奇侠传》中赵灵儿造型的真人写实宠物，保留清雅眉眼、半束长发与白浅玉色纱裙，不采用 Q 版比例。",
+      en: "A photorealistic, non-chibi Liu Yifei as Zhao Ling'er from the 2005 live-action Chinese Paladin, with her period hairstyle and white-and-pale-jade gauze costume."
+    },
+    licenseType: "fan-noncommercial",
+    contributor: "YaKun9",
+    color: "151, 205, 188"
+  },
+  {
     id: "genshin-impact-keqing",
     series: "genshin",
     name: { zh: "刻晴", en: "Keqing" },
@@ -231,6 +243,7 @@ const translations = {
 };
 
 const seriesLabels = {
+  chinesePaladin: { zh: "仙剑奇侠传", en: "Chinese Paladin" },
   genshin: { zh: "原神", en: "Genshin Impact" },
   naruto: { zh: "火影忍者", en: "Naruto" },
   starrail: { zh: "崩坏：星穹铁道", en: "Honkai: Star Rail" },
