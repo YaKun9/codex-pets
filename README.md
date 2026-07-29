@@ -23,6 +23,7 @@
 | <img src="./original-zongzhu-basketball-chicken/preview.webp" alt="篮球哥哥" width="72"> | 篮球哥哥 | `original-zongzhu-basketball-chicken` | 2 | 篮球哥哥是一个以宗主经典篮球舞台形象为原型的原创 Codex 宠物，保留蓬松中分发型、黑色高领、白色背带与篮球舞步等标志性元素。 | [YaKun9](https://github.com/YaKun9) | [查看](./original-zongzhu-basketball-chicken/) |
 | <img src="./original-taotao/preview.webp" alt="涛涛" width="72"> | 涛涛 | `original-taotao` | 2 | 涛涛是一个面向开发者社区的原创 IT 吉祥物，拥有短黑发、灿烂笑容和黑色连帽衫，以阳光开朗的形象与活力十足的背带舞陪伴每一次编码。 | [GitXMING](https://github.com/GitXMING) | [查看](./original-taotao/) |
 | <img src="./original-xiaoman/preview.webp" alt="小满" width="72"> | 小满 | `original-xiaoman` | 2 | 小满是一只以中华田园犬为底子的原创 Q 版 Codex 宠物，拥有圆润幼态的脸、麦金短毛、奶油胸口、机灵立耳与红色织项圈，亲人又可靠。 | [YaKun9](https://github.com/YaKun9) | [查看](./original-xiaoman/) |
+| <img src="./original-scout-corgi/preview.webp" alt="Scout" width="72"> | Scout | `original-scout-corgi` | 2 | Scout 是一只原创水彩柯基探险家，拥有橙白毛色、灵动棕眼、青绿色背包与胸前相机，乐于记录每一次编码旅程。 | [fanslead](https://github.com/fanslead) | [查看](./original-scout-corgi/) |
 
 ## 使用方式
 
