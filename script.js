@@ -1,5 +1,14 @@
 const repositoryUrl = "https://github.com/YaKun9/codex-pets";
 
+const petPreviewAnimation = {
+  row: 0,
+  frameCount: 7,
+  frameWidth: 192,
+  frameHeight: 208,
+  frameDuration: 140,
+  loopPause: 800
+};
+
 const pets = [
   {
     id: "chinese-paladin-liu-yifei-zhao-linger",
@@ -317,6 +326,9 @@ const installCode = document.querySelector("#installCode");
 const codeLabel = document.querySelector("#codeLabel");
 const toast = document.querySelector("#toast");
 const heroPetSlots = [...document.querySelectorAll("[data-hero-pet]")];
+const reducedMotionQuery = window.matchMedia("(prefers-reduced-motion: reduce)");
+const spriteSheetCache = new Map();
+const activePetPreviews = new Set();
 
 let toastTimer;
 
@@ -365,6 +377,159 @@ function createInstallPrompt(pet) {
   return `Install the Codex pet \`${pet.id}\` for me:\n\n- Get the pet directory from ${repositoryUrl}.\n- Determine the current user's CODEX_HOME; if it is not set, use ~/.codex.\n- Copy the entire pet directory into <CODEX_HOME>/pets/. The final directory name must match the id in pet.json.\n- Confirm that pet.json and the spritesheet referenced by spritesheetPath both exist. Do not modify the pet assets.\n- When finished, report the installed path and explain how to select the pet in the desktop app or Codex CLI.`;
 }
 
+function loadSpriteSheet(petId) {
+  if (!spriteSheetCache.has(petId)) {
+    const spriteSheet = new Image();
+    spriteSheet.decoding = "async";
+
+    const request = new Promise((resolve, reject) => {
+      spriteSheet.addEventListener("load", () => resolve(spriteSheet), { once: true });
+      spriteSheet.addEventListener("error", reject, { once: true });
+    });
+
+    spriteSheet.src = `./${petId}/spritesheet.webp`;
+    spriteSheetCache.set(petId, request);
+  }
+
+  return spriteSheetCache.get(petId);
+}
+
+function drawPetPreviewFrame(preview) {
+  const { frameHeight, frameWidth, row } = petPreviewAnimation;
+
+  preview.context.clearRect(0, 0, frameWidth, frameHeight);
+  preview.context.drawImage(
+    preview.spriteSheet,
+    preview.frame * frameWidth,
+    row * frameHeight,
+    frameWidth,
+    frameHeight,
+    0,
+    0,
+    frameWidth,
+    frameHeight
+  );
+}
+
+function schedulePetPreview(preview) {
+  if (!preview.active) {
+    return;
+  }
+
+  drawPetPreviewFrame(preview);
+  preview.visual.classList.add("is-animating");
+
+  if (preview.frame === petPreviewAnimation.frameCount - 1) {
+    preview.timer = window.setTimeout(() => {
+      if (!preview.active) {
+        return;
+      }
+
+      preview.frame = 0;
+      drawPetPreviewFrame(preview);
+      preview.timer = window.setTimeout(() => {
+        preview.frame = 1;
+        schedulePetPreview(preview);
+      }, petPreviewAnimation.loopPause);
+    }, petPreviewAnimation.frameDuration);
+    return;
+  }
+
+  preview.frame += 1;
+  preview.timer = window.setTimeout(
+    () => schedulePetPreview(preview),
+    petPreviewAnimation.frameDuration
+  );
+}
+
+async function startPetPreview(preview) {
+  if (preview.active || reducedMotionQuery.matches) {
+    return;
+  }
+
+  preview.active = true;
+  activePetPreviews.add(preview);
+
+  try {
+    preview.spriteSheet = await loadSpriteSheet(preview.petId);
+  } catch {
+    stopPetPreview(preview);
+    return;
+  }
+
+  if (!preview.active) {
+    return;
+  }
+
+  preview.frame = 0;
+  schedulePetPreview(preview);
+}
+
+function stopPetPreview(preview) {
+  preview.active = false;
+  window.clearTimeout(preview.timer);
+  preview.visual.classList.remove("is-animating");
+  preview.context.clearRect(
+    0,
+    0,
+    petPreviewAnimation.frameWidth,
+    petPreviewAnimation.frameHeight
+  );
+  activePetPreviews.delete(preview);
+}
+
+function stopAllPetPreviews() {
+  [...activePetPreviews].forEach(stopPetPreview);
+}
+
+function bindPetPreviews() {
+  petGrid.querySelectorAll("[data-pet-preview]").forEach((visual) => {
+    const card = visual.closest(".pet-card");
+    const canvas = visual.querySelector("canvas");
+    const preview = {
+      active: false,
+      context: canvas.getContext("2d"),
+      frame: 0,
+      petId: visual.dataset.petPreview,
+      spriteSheet: null,
+      timer: null,
+      visual
+    };
+    let hovered = false;
+    let focused = false;
+
+    function updatePreview() {
+      if (hovered || focused) {
+        startPetPreview(preview);
+      } else {
+        stopPetPreview(preview);
+      }
+    }
+
+    card.addEventListener("pointerenter", () => {
+      hovered = true;
+      updatePreview();
+    });
+
+    card.addEventListener("pointerleave", () => {
+      hovered = false;
+      updatePreview();
+    });
+
+    card.addEventListener("focusin", () => {
+      focused = true;
+      updatePreview();
+    });
+
+    card.addEventListener("focusout", (event) => {
+      if (!card.contains(event.relatedTarget)) {
+        focused = false;
+        updatePreview();
+      }
+    });
+  });
+}
+
 function renderFilters() {
   const options = ["all", ...Object.keys(seriesLabels)];
   filters.innerHTML = options.map((key) => {
@@ -383,6 +548,8 @@ function renderFilters() {
 }
 
 function renderPets() {
+  stopAllPetPreviews();
+
   const query = state.query.trim().toLowerCase();
   const visiblePets = pets.filter((pet) => {
     const matchesSeries = state.series === "all" || pet.series === state.series;
@@ -396,10 +563,11 @@ function renderPets() {
 
     return `
       <article class="pet-card" style="--pet-rgb: ${pet.color}">
-        <div class="pet-visual">
+        <div class="pet-visual" data-pet-preview="${pet.id}">
           <span class="series-pill">${seriesLabels[pet.series][state.language]}</span>
           <span class="version-pill">v2</span>
           <img src="./${pet.id}/preview.webp" alt="${pet.name[state.language]}" loading="lazy" width="192" height="208">
+          <canvas width="192" height="208" aria-hidden="true"></canvas>
         </div>
         <div class="pet-content">
           <div class="pet-title-row">
@@ -442,6 +610,7 @@ function renderPets() {
   }).join("");
 
   emptyState.hidden = visiblePets.length !== 0;
+  bindPetPreviews();
 
   petGrid.querySelectorAll("[data-copy-prompt]").forEach((button) => {
     button.addEventListener("click", async () => {
@@ -514,6 +683,12 @@ document.querySelector("#copyInstallCode").addEventListener("click", async () =>
 document.querySelector("#petCount").textContent = String(pets.length);
 document.querySelector("#worldCount").textContent = String(new Set(pets.map((pet) => pet.series)).size);
 document.querySelector("#creatorCount").textContent = String(new Set(pets.map((pet) => pet.contributor)).size);
+
+reducedMotionQuery.addEventListener("change", (event) => {
+  if (event.matches) {
+    stopAllPetPreviews();
+  }
+});
 
 renderRandomHeroPets();
 renderInstallCode();

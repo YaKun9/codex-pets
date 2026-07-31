@@ -712,16 +712,32 @@ input:focus-visible {
   border-radius: 15px;
 }
 
-.pet-visual img {
+.pet-visual img,
+.pet-visual canvas {
   position: relative;
   z-index: 2;
+  grid-area: 1 / 1;
   width: 164px;
   height: auto;
   filter: drop-shadow(0 16px 17px rgba(0, 0, 0, 0.45));
-  transition: transform 280ms ease;
+  transition: opacity 160ms ease, transform 280ms ease;
 }
 
-.pet-card:hover .pet-visual img {
+.pet-visual canvas {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.pet-visual.is-animating img {
+  opacity: 0;
+}
+
+.pet-visual.is-animating canvas {
+  opacity: 1;
+}
+
+.pet-card:hover .pet-visual img,
+.pet-card:hover .pet-visual canvas {
   transform: translateY(-5px) scale(1.025);
 }
 
@@ -1310,7 +1326,7 @@ input:focus-visible {
   .pet-grid, .steps-grid { grid-template-columns: 1fr; }
   .pet-grid { max-width: 470px; margin-inline: auto; }
   .pet-visual { height: 255px; }
-  .pet-visual img { width: 175px; }
+  .pet-visual img, .pet-visual canvas { width: 175px; }
   .install-panel { padding: 27px 20px; }
   .contribute-card { padding: 62px 20px; }
   .footer-inner { grid-template-columns: 1fr auto; gap: 10px; padding-block: 26px; }
