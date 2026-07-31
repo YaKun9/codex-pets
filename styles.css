@@ -17,6 +17,8 @@
   --radius-md: 20px;
   --radius-sm: 13px;
   --shell: min(1180px, calc(100% - 40px));
+  --cursor-default: url("./assets/cursors/codex-paw-default.svg") 2 2, auto;
+  --cursor-action: url("./assets/cursors/codex-paw-pointer.svg") 2 2, pointer;
 }
 
 * {
@@ -31,6 +33,7 @@ body {
   margin: 0;
   min-width: 320px;
   overflow-x: hidden;
+  cursor: var(--cursor-default);
   color: var(--text);
   background:
     radial-gradient(circle at 12% 8%, rgba(91, 71, 174, 0.14), transparent 28%),
@@ -64,6 +67,7 @@ input {
 
 button,
 a {
+  cursor: var(--cursor-action);
   -webkit-tap-highlight-color: transparent;
 }
 
@@ -198,7 +202,7 @@ input:focus-visible {
   gap: 7px;
   min-width: 59px;
   padding: 0 12px;
-  cursor: pointer;
+  cursor: var(--cursor-action);
 }
 
 .language-dot {
@@ -638,7 +642,7 @@ input:focus-visible {
   border: 1px solid var(--line);
   border-radius: 999px;
   background: transparent;
-  cursor: pointer;
+  cursor: var(--cursor-action);
   font-size: 12px;
   transition: color 180ms ease, border-color 180ms ease, background 180ms ease;
 }
@@ -971,7 +975,7 @@ input:focus-visible {
   border: 1px solid var(--line);
   border-radius: 10px;
   background: rgba(255, 255, 255, 0.025);
-  cursor: pointer;
+  cursor: var(--cursor-action);
   font-size: 11px;
   font-weight: 650;
   transition: color 180ms ease, border-color 180ms ease, background 180ms ease;
@@ -1100,7 +1104,7 @@ input:focus-visible {
   border: 0;
   border-radius: 8px;
   background: transparent;
-  cursor: pointer;
+  cursor: var(--cursor-action);
   font-size: 11px;
 }
 
@@ -1155,7 +1159,7 @@ input:focus-visible {
   border: 0;
   border-radius: 7px;
   background: transparent;
-  cursor: pointer;
+  cursor: var(--cursor-action);
   font-size: 10px;
 }
 
