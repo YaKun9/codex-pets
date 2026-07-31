@@ -144,6 +144,18 @@ const pets = [
     licenseType: "cc-by-nc-sa",
     contributor: "YaKun9",
     color: "217, 154, 72"
+  },
+  {
+    id: "original-scout-corgi",
+    series: "original",
+    name: { zh: "Scout", en: "Scout" },
+    description: {
+      zh: "Scout 是一只原创水彩柯基探险家，背着青绿色背包、挂着相机，陪你记录每一次编码旅程。",
+      en: "Scout is an original watercolor corgi explorer with a teal backpack and camera, ready for every coding journey."
+    },
+    licenseType: "cc-by-nc-sa",
+    contributor: "fanslead",
+    color: "46, 188, 181"
   }
 ];
 
