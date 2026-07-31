@@ -165,6 +165,18 @@ const pets = [
     licenseType: "cc-by-nc-sa",
     contributor: "fanslead",
     color: "46, 188, 181"
+  },
+  {
+    id: "ultraman-tiga-multi-type",
+    series: "ultraman",
+    name: { zh: "迪迦奥特曼", en: "Ultraman Tiga" },
+    description: {
+      zh: "《迪迦奥特曼》经典三形态的精致动画赛璐璐风 Q 版宠物，以复合型为主体，并在移动与跳跃动画中展现空中型和强力型。",
+      en: "A polished cel-animated chibi Ultraman Tiga featuring all three classic forms, led by Multi Type with Sky Type movement and a Power Type jump."
+    },
+    licenseType: "fan-noncommercial",
+    contributor: "YaKun9",
+    color: "136, 91, 200"
   }
 ];
 
@@ -267,6 +279,7 @@ const seriesLabels = {
   chinesePaladin: { zh: "仙剑奇侠传", en: "Chinese Paladin" },
   genshin: { zh: "原神", en: "Genshin Impact" },
   naruto: { zh: "火影忍者", en: "Naruto" },
+  ultraman: { zh: "奥特曼", en: "Ultraman" },
   starrail: { zh: "崩坏：星穹铁道", en: "Honkai: Star Rail" },
   wuthering: { zh: "鸣潮", en: "Wuthering Waves" },
   original: { zh: "原创", en: "Original" }
