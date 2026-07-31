@@ -10,20 +10,22 @@
 
 ## 宠物索引
 
+宠物索引按各宠物首次进入 `main` 的提交时间升序排列（最早在前、最新在后）。新增宠物时请将条目追加到表格末尾，不要按名称、作品或 ID 重新分组排序。
+
 | 预览 | 名称 | ID | 版本 | 介绍 | 贡献者 | 路径 |
 | :---: | --- | --- | ---: | --- | --- | --- |
-| <img src="./chinese-paladin-liu-yifei-zhao-linger/preview.webp" alt="刘亦菲·赵灵儿" width="72"> | 刘亦菲·赵灵儿 | `chinese-paladin-liu-yifei-zhao-linger` | 2 | 刘亦菲在 2005 版《仙剑奇侠传》中赵灵儿造型的真人写实 Codex 宠物，保留清雅眉眼、半束长发与白浅玉色纱裙，不采用 Q 版比例。 | [YaKun9](https://github.com/YaKun9) | [查看](./chinese-paladin-liu-yifei-zhao-linger/) |
 | <img src="./genshin-impact-keqing/preview.webp" alt="刻晴" width="72"> | 刻晴 | `genshin-impact-keqing` | 2 | 《原神》刻晴的官方设定风 Q 版 Codex 宠物，干练优雅，带有鲜明的雷元素气质。 | [YaKun9](https://github.com/YaKun9) | [查看](./genshin-impact-keqing/) |
-| <img src="./genshin-impact-kamisato-ayaka/preview.webp" alt="神里绫华" width="72"> | 神里绫华 | `genshin-impact-kamisato-ayaka` | 2 | 《原神》神里绫华的官方设定风 Q 版 Codex 宠物，优雅端庄，保留霜华气质与标志性的白蓝和服甲胄造型。 | [YaKun9](https://github.com/YaKun9) | [查看](./genshin-impact-kamisato-ayaka/) |
 | <img src="./naruto-six-paths/preview.webp" alt="六道鸣人" width="72"> | 六道鸣人 | `naruto-six-paths` | 2 | 鸣人六道仙人形态的 Q 版动画宠物，金色查克拉外衣与六道纹样醒目，勇敢而温暖。 | [GitXMING](https://github.com/GitXMING) | [查看](./naruto-six-paths/) |
 | <img src="./honkai-star-rail-yaoguang-yaoyao/preview.webp" alt="爻光·摇摇" width="72"> | 爻光·摇摇 | `honkai-star-rail-yaoguang-yaoyao` | 2 | 《崩坏：星穹铁道》爻光的联名摇一摇灵感 Q 版 Codex 宠物，保留银白长发、青蓝孔雀羽饰与仙舟华丽装束。 | [YaKun9](https://github.com/YaKun9) | [查看](./honkai-star-rail-yaoguang-yaoyao/) |
-| <img src="./honkai-star-rail-acheron/preview.webp" alt="黄泉" width="72"> | 黄泉 | `honkai-star-rail-acheron` | 2 | 《崩坏：星穹铁道》黄泉的精美官方设定风 Q 版 Codex 宠物，冷艳沉静，携长刀并带有红白雷光拔刀演出。 | [YaKun9](https://github.com/YaKun9) | [查看](./honkai-star-rail-acheron/) |
 | <img src="./wuthering-waves-iuno/preview.webp" alt="尤诺" width="72"> | 尤诺 | `wuthering-waves-iuno` | 2 | 《鸣潮》月相主题共鸣者尤诺的灵动优雅 Q 版 Codex 宠物，保留深蓝渐变长发、金色头饰与月环意象。 | [yanhuuo](https://github.com/yanhuuo) | [查看](./wuthering-waves-iuno/) |
+| <img src="./honkai-star-rail-acheron/preview.webp" alt="黄泉" width="72"> | 黄泉 | `honkai-star-rail-acheron` | 2 | 《崩坏：星穹铁道》黄泉的精美官方设定风 Q 版 Codex 宠物，冷艳沉静，携长刀并带有红白雷光拔刀演出。 | [YaKun9](https://github.com/YaKun9) | [查看](./honkai-star-rail-acheron/) |
 | <img src="./wuthering-waves-suisui/preview.webp" alt="穗穗" width="72"> | 穗穗 | `wuthering-waves-suisui` | 2 | 《鸣潮》穗穗的温婉灵动 Q 版 Codex 宠物，保留金白长发、白金长旗袍前襟、蓝金水袖、水扇与红色饰件。 | [mizunagare](https://github.com/mizunagare) | [查看](./wuthering-waves-suisui/) |
 | <img src="./wuthering-waves-aemeath/preview.webp" alt="爱弥斯" width="72"> | 爱弥斯 | `wuthering-waves-aemeath` | 2 | 《鸣潮》爱弥斯的星海歌姬风 Q 版 Codex 宠物，保留粉色长马尾、金色眼眸、青色晶体发饰与白蓝星空驾驶员礼服。 | [mizunagare](https://github.com/mizunagare) | [查看](./wuthering-waves-aemeath/) |
-| <img src="./original-zongzhu-basketball-chicken/preview.webp" alt="篮球哥哥" width="72"> | 篮球哥哥 | `original-zongzhu-basketball-chicken` | 2 | 篮球哥哥是一个以宗主经典篮球舞台形象为原型的原创 Codex 宠物，保留蓬松中分发型、黑色高领、白色背带与篮球舞步等标志性元素。 | [YaKun9](https://github.com/YaKun9) | [查看](./original-zongzhu-basketball-chicken/) |
 | <img src="./original-taotao/preview.webp" alt="涛涛" width="72"> | 涛涛 | `original-taotao` | 2 | 涛涛是一个面向开发者社区的原创 IT 吉祥物，拥有短黑发、灿烂笑容和黑色连帽衫，以阳光开朗的形象与活力十足的背带舞陪伴每一次编码。 | [GitXMING](https://github.com/GitXMING) | [查看](./original-taotao/) |
+| <img src="./original-zongzhu-basketball-chicken/preview.webp" alt="篮球哥哥" width="72"> | 篮球哥哥 | `original-zongzhu-basketball-chicken` | 2 | 篮球哥哥是一个以宗主经典篮球舞台形象为原型的原创 Codex 宠物，保留蓬松中分发型、黑色高领、白色背带与篮球舞步等标志性元素。 | [YaKun9](https://github.com/YaKun9) | [查看](./original-zongzhu-basketball-chicken/) |
+| <img src="./genshin-impact-kamisato-ayaka/preview.webp" alt="神里绫华" width="72"> | 神里绫华 | `genshin-impact-kamisato-ayaka` | 2 | 《原神》神里绫华的官方设定风 Q 版 Codex 宠物，优雅端庄，保留霜华气质与标志性的白蓝和服甲胄造型。 | [YaKun9](https://github.com/YaKun9) | [查看](./genshin-impact-kamisato-ayaka/) |
 | <img src="./original-xiaoman/preview.webp" alt="小满" width="72"> | 小满 | `original-xiaoman` | 2 | 小满是一只以中华田园犬为底子的原创 Q 版 Codex 宠物，拥有圆润幼态的脸、麦金短毛、奶油胸口、机灵立耳与红色织项圈，亲人又可靠。 | [YaKun9](https://github.com/YaKun9) | [查看](./original-xiaoman/) |
+| <img src="./chinese-paladin-liu-yifei-zhao-linger/preview.webp" alt="刘亦菲·赵灵儿" width="72"> | 刘亦菲·赵灵儿 | `chinese-paladin-liu-yifei-zhao-linger` | 2 | 刘亦菲在 2005 版《仙剑奇侠传》中赵灵儿造型的真人写实 Codex 宠物，保留清雅眉眼、半束长发与白浅玉色纱裙，不采用 Q 版比例。 | [YaKun9](https://github.com/YaKun9) | [查看](./chinese-paladin-liu-yifei-zhao-linger/) |
 | <img src="./original-scout-corgi/preview.webp" alt="Scout" width="72"> | Scout | `original-scout-corgi` | 2 | Scout 是一只原创水彩柯基探险家，拥有橙白毛色、灵动棕眼、青绿色背包与胸前相机，乐于记录每一次编码旅程。 | [fanslead](https://github.com/fanslead) | [查看](./original-scout-corgi/) |
 
 ## 使用方式
@@ -121,7 +123,7 @@ codex-pets/
 1. Fork 本仓库，并克隆你的 Fork。
 2. 从最新的 `main` 创建分支，推荐命名为 `pet/<pet-id>`。
 3. 添加宠物目录、`pet.json`、`spritesheet.webp`、`preview.webp` 和 `LICENSE.md`。`preview.webp` 应为 `192×208` 的透明 WebP，并清晰展示宠物形象；`LICENSE.md` 应与原创或第三方角色素材类型相符。
-4. 在中英文 README 的“宠物索引”中增加对应条目，并在预览列引用该宠物的 `preview.webp`。
+4. 在中英文 README 的“宠物索引”末尾增加对应条目，并在预览列引用该宠物的 `preview.webp`。索引按宠物首次进入 `main` 的提交时间升序排列，不要按名称、作品或 ID 调整已有顺序。
 5. 在 `script.js` 的 `pets` 列表中同步宠物名称、中英文介绍、作品分类、贡献者和主题色，确保 GitHub Pages 图鉴能够展示新宠物；新增分类时也要同步 `seriesLabels`。
 6. 提交并推送分支，然后向本仓库的 `main` 分支发起 Pull Request。
 
@@ -142,7 +144,7 @@ git push -u origin pet/<pet-id>
 - `spritesheetPath` 指向目录中实际存在的精灵图。
 - 宠物目录包含 `192×208` 的透明 `preview.webp`，且预览能够清晰展示宠物形象。
 - 宠物目录包含 `LICENSE.md`，并准确说明作者、素材来源、允许的使用方式和第三方权利边界。
-- 中英文 README 的宠物索引已经同步更新，并正确引用 `preview.webp`。
+- 中英文 README 的宠物索引已经同步更新，正确引用 `preview.webp`，并按首次进入 `main` 的提交时间升序排列；新条目位于末尾。
 - `script.js` 的图鉴条目已同步更新，并使用已存在或新补充的作品分类。
 - PR 说明包含角色来源、素材作者、权利确认和适用的素材许可证。
 - 本次提交只包含当前宠物相关文件。

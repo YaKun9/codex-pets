@@ -28,6 +28,12 @@ By opening a Pull Request, you confirm and agree that:
 5. You will not submit assets copied, extracted, or modified from another project, creator, or commercial product without permission.
 6. Maintainers may reject or remove content when ownership is unclear, attribution is incomplete, licenses conflict, or a rights holder requests review.
 
+## 宠物索引顺序 / Pet Index Order
+
+中英文 README 中的“宠物索引”必须按各宠物首次进入 `main` 的提交时间升序排列，即最早提交的宠物在前、最新提交的宠物在后。新增宠物时应将条目追加到两个索引的末尾，不得按名称、作品或 ID 重新分组或调整已有顺序。
+
+The Pet Index tables in both README files must be ordered by the commit time when each pet first entered `main`, ascending from oldest to newest. Append a new pet to the end of both indexes; do not regroup or reorder existing entries by name, series, or ID.
+
 ## PR 中需要说明 / Required PR Information
 
 宠物素材 PR 请在说明中包含：
