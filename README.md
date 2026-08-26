@@ -1,3 +1,5 @@
+
+
 # codex-pets
 
 **简体中文** | [English](./README_EN.md)
@@ -40,7 +42,7 @@ git clone https://github.com/YaKun9/codex-pets.git
 cd codex-pets
 ```
 
-2. 从宠物索引中选择一个 ID，将整个宠物目录复制到 Codex 的 `pets` 目录。设置了 `CODEX_HOME` 时使用 `$CODEX_HOME/pets/`，否则使用 `~/.codex/pets/`。
+2. 从宠物索引中选择一个 ID，将整个宠物目录复制到 Codex 的 `pets` 目录，并保持目录名与宠物 ID 一致。设置了 `CODEX_HOME` 时使用 `$CODEX_HOME/pets/`，否则使用 `~/.codex/pets/`。
 
 Windows PowerShell：
 
