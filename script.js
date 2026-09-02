@@ -177,6 +177,20 @@ const pets = [
     licenseType: "fan-noncommercial",
     contributor: "YaKun9",
     color: "136, 91, 200"
+  },
+  {
+    id: "71pet",
+    series: "sakurasou",
+    name: { zh: "椎名真白", en: "Shiina Mashiro" },
+    description: {
+      zh: "一个 GPT 创作的椎名真白二次创作 Codex 宠物，基于《樱花庄的宠物女孩》。",
+      en: "A GPT-created fan-made Codex pet based on Shiina Mashiro from The Pet Girl of Sakurasou."
+    },
+    spriteVersionNumber: 1,
+    previewFrameCount: 6,
+    licenseType: "fan-noncommercial",
+    contributor: "lovely71",
+    color: "244, 191, 214"
   }
 ];
 
@@ -196,7 +210,7 @@ const translations = {
     statCreators: "位贡献者",
     catalogKicker: "PET CATALOG",
     catalogTitle: "选择你的编码伙伴",
-    catalogDescription: "每一只宠物都由社区成员精心制作，并遵循 Codex Pets v2 资源规范。",
+    catalogDescription: "每一只宠物都由社区成员精心制作，并遵循 Codex Pets 资源规范。",
     searchLabel: "搜索宠物",
     searchPlaceholder: "搜索名称或 ID",
     emptyState: "没有找到匹配的宠物，换个关键词试试吧。",
@@ -242,7 +256,7 @@ const translations = {
     statCreators: "creators",
     catalogKicker: "PET CATALOG",
     catalogTitle: "Choose your coding companion",
-    catalogDescription: "Every pet is carefully crafted by the community and follows the Codex Pets v2 asset format.",
+    catalogDescription: "Every pet is carefully crafted by the community and follows the Codex Pets asset specification.",
     searchLabel: "Search pets",
     searchPlaceholder: "Search by name or ID",
     emptyState: "No matching pets found. Try another search.",
@@ -280,6 +294,7 @@ const seriesLabels = {
   genshin: { zh: "原神", en: "Genshin Impact" },
   naruto: { zh: "火影忍者", en: "Naruto" },
   ultraman: { zh: "奥特曼", en: "Ultraman" },
+  sakurasou: { zh: "樱花庄的宠物女孩", en: "The Pet Girl of Sakurasou" },
   starrail: { zh: "崩坏：星穹铁道", en: "Honkai: Star Rail" },
   wuthering: { zh: "鸣潮", en: "Wuthering Waves" },
   original: { zh: "原创", en: "Original" }
@@ -432,7 +447,7 @@ function schedulePetPreview(preview) {
   drawPetPreviewFrame(preview);
   preview.visual.classList.add("is-animating");
 
-  if (preview.frame === petPreviewAnimation.frameCount - 1) {
+  if (preview.frame === preview.frameCount - 1) {
     preview.timer = window.setTimeout(() => {
       if (!preview.active) {
         return;
@@ -474,6 +489,8 @@ async function startPetPreview(preview) {
     return;
   }
 
+  const pet = pets.find((item) => item.id === preview.petId);
+  preview.frameCount = pet?.previewFrameCount || petPreviewAnimation.frameCount;
   preview.frame = 0;
   schedulePetPreview(preview);
 }
@@ -503,6 +520,7 @@ function bindPetPreviews() {
       active: false,
       context: canvas.getContext("2d"),
       frame: 0,
+      frameCount: petPreviewAnimation.frameCount,
       petId: visual.dataset.petPreview,
       spriteSheet: null,
       timer: null,
@@ -578,7 +596,7 @@ function renderPets() {
       <article class="pet-card" style="--pet-rgb: ${pet.color}">
         <div class="pet-visual" data-pet-preview="${pet.id}">
           <span class="series-pill">${seriesLabels[pet.series][state.language]}</span>
-          <span class="version-pill">v2</span>
+          <span class="version-pill">v${pet.spriteVersionNumber || 2}</span>
           <img src="./${pet.id}/preview.webp" alt="${pet.name[state.language]}" loading="lazy" width="192" height="208">
           <canvas width="192" height="208" aria-hidden="true"></canvas>
         </div>
