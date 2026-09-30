@@ -28,6 +28,7 @@
 | <img src="./chinese-paladin-liu-yifei-zhao-linger/preview.webp" alt="刘亦菲·赵灵儿" width="72"> | 刘亦菲·赵灵儿 | `chinese-paladin-liu-yifei-zhao-linger` | 2 | 刘亦菲在 2005 版《仙剑奇侠传》中赵灵儿造型的真人写实 Codex 宠物，保留清雅眉眼、半束长发与白浅玉色纱裙，不采用 Q 版比例。 | [YaKun9](https://github.com/YaKun9) | [查看](./chinese-paladin-liu-yifei-zhao-linger/) |
 | <img src="./original-scout-corgi/preview.webp" alt="Scout" width="72"> | Scout | `original-scout-corgi` | 2 | Scout 是一只原创水彩柯基探险家，拥有橙白毛色、灵动棕眼、青绿色背包与胸前相机，乐于记录每一次编码旅程。 | [fanslead](https://github.com/fanslead) | [查看](./original-scout-corgi/) |
 | <img src="./ultraman-tiga-multi-type/preview.webp" alt="迪迦奥特曼" width="72"> | 迪迦奥特曼 | `ultraman-tiga-multi-type` | 2 | 《迪迦奥特曼》经典三形态的精致动画赛璐璐风 Q 版 Codex 宠物，以复合型为主体，并在移动与跳跃动画中展现空中型和强力型。 | [YaKun9](https://github.com/YaKun9) | [查看](./ultraman-tiga-multi-type/) |
+| <img src="./original-bubu-codebrew-bear/preview.webp" alt="布布" width="72"> | 布布 | `original-bubu-codebrew-bear` | 2 | 布布是一只原创 AI 辅助创作的可可棕色编程熊，专注地使用青色笔记本电脑，身旁放着一只白色咖啡杯。 | [xxhh0822](https://github.com/xxhh0822) | [查看](./original-bubu-codebrew-bear/) |
 
 ## 使用方式
 

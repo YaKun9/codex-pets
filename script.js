@@ -177,6 +177,18 @@ const pets = [
     licenseType: "fan-noncommercial",
     contributor: "YaKun9",
     color: "136, 91, 200"
+  },
+  {
+    id: "original-bubu-codebrew-bear",
+    series: "original",
+    name: { zh: "布布", en: "Bubu" },
+    description: {
+      zh: "布布是一只原创 AI 辅助创作的可可棕色编程熊，专注地使用青色笔记本电脑，身旁放着一只白色咖啡杯。",
+      en: "Bubu is an original AI-assisted cocoa-brown coding bear, focused on a cyan laptop with a small white coffee mug nearby."
+    },
+    licenseType: "cc-by-nc-sa",
+    contributor: "xxhh0822",
+    color: "73, 201, 210"
   }
 ];
 
