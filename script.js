@@ -189,6 +189,18 @@ const pets = [
     licenseType: "cc-by-nc-sa",
     contributor: "xxhh0822",
     color: "73, 201, 210"
+  },
+  {
+    id: "genshin-impact-odette",
+    series: "genshin",
+    name: { zh: "奥黛塔", en: "Odette" },
+    description: {
+      zh: "《原神》奥黛塔的 Q 版 Codex 宠物，保留浅蓝发、蓝白芭蕾舞裙与优雅旋转动作。",
+      en: "A chibi Codex pet inspired by Odette from Genshin Impact, preserving her pale-blue hair, blue-and-white ballet dress, and graceful pirouette animation."
+    },
+    licenseType: "fan-noncommercial",
+    contributor: "Zlllo",
+    color: "142, 194, 255"
   }
 ];
 

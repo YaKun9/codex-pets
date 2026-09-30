@@ -29,6 +29,7 @@ The pet index is ordered by the commit time when each pet first entered `main`, 
 | <img src="./original-scout-corgi/preview.webp" alt="Scout" width="72"> | Scout | `original-scout-corgi` | 2 | Scout is an original watercolor corgi explorer with orange-and-white fur, bright brown eyes, a teal backpack, and a camera ready to capture every coding journey. | [fanslead](https://github.com/fanslead) | [View](./original-scout-corgi/) |
 | <img src="./ultraman-tiga-multi-type/preview.webp" alt="Ultraman Tiga" width="72"> | Ultraman Tiga | `ultraman-tiga-multi-type` | 2 | A polished cel-animated chibi Codex pet featuring Ultraman Tiga's three classic forms, led by Multi Type with Sky Type movement and a Power Type jump. | [YaKun9](https://github.com/YaKun9) | [View](./ultraman-tiga-multi-type/) |
 | <img src="./original-bubu-codebrew-bear/preview.webp" alt="Bubu" width="72"> | Bubu | `original-bubu-codebrew-bear` | 2 | Bubu is an original AI-assisted cocoa-brown coding bear, focused on a cyan laptop with a small white coffee mug nearby. | [xxhh0822](https://github.com/xxhh0822) | [View](./original-bubu-codebrew-bear/) |
+| <img src="./genshin-impact-odette/preview.webp" alt="Odette" width="72"> | Odette | `genshin-impact-odette` | 2 | A chibi Codex pet inspired by Odette from *Genshin Impact*, preserving her pale-blue hair, blue-and-white ballet dress, and graceful pirouette animation. | [Zlllo](https://github.com/Zlllo) | [View](./genshin-impact-odette/) |
 
 ## Usage
 
