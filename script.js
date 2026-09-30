@@ -75,12 +75,13 @@ const pets = [
     series: "starrail",
     name: { zh: "黄泉", en: "Acheron" },
     description: {
-      zh: "《崩坏：星穹铁道》黄泉的精美 Q 版宠物，冷艳沉静，携长刀并带有红白雷光拔刀演出。",
-      en: "A polished chibi Acheron with a cool composure, long blade, and red-and-white lightning draw animation."
+      zh: "《崩坏：星穹铁道》黄泉终结技形态的精修同人 Q 版 Codex 宠物，保留银白长发、赤色眼眸、黑白红战装与绯红长刀，包含九种状态动画和十六向注视。",
+      en: "A refined fan-made chibi Codex pet of Acheron in her ultimate form from Honkai: Star Rail, with silver-white hair, crimson eyes, a black-white-red combat outfit, and a crimson blade, featuring nine animated states and sixteen gaze directions."
     },
     licenseType: "fan-noncommercial",
     contributor: "YaKun9",
-    color: "244, 86, 132"
+    color: "210, 35, 61",
+    idleFrameCount: 6
   },
   {
     id: "wuthering-waves-iuno",
