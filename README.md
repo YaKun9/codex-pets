@@ -30,6 +30,7 @@
 | <img src="./ultraman-tiga-multi-type/preview.webp" alt="迪迦奥特曼" width="72"> | 迪迦奥特曼 | `ultraman-tiga-multi-type` | 2 | 《迪迦奥特曼》经典三形态的精致动画赛璐璐风 Q 版 Codex 宠物，以复合型为主体，并在移动与跳跃动画中展现空中型和强力型。 | [YaKun9](https://github.com/YaKun9) | [查看](./ultraman-tiga-multi-type/) |
 | <img src="./original-bubu-codebrew-bear/preview.webp" alt="布布" width="72"> | 布布 | `original-bubu-codebrew-bear` | 2 | 布布是一只原创 AI 辅助创作的可可棕色编程熊，专注地使用青色笔记本电脑，身旁放着一只白色咖啡杯。 | [xxhh0822](https://github.com/xxhh0822) | [查看](./original-bubu-codebrew-bear/) |
 | <img src="./genshin-impact-odette/preview.webp" alt="奥黛塔" width="72"> | 奥黛塔 | `genshin-impact-odette` | 2 | 《原神》奥黛塔的 Q 版 Codex 宠物，保留浅蓝发、蓝白芭蕾舞裙与优雅旋转动作。 | [Zlllo](https://github.com/Zlllo) | [查看](./genshin-impact-odette/) |
+| <img src="./honkai-star-rail-silver-wolf-lv999/preview.webp" alt="银狼 Lv.999" width="72"> | 银狼 Lv.999 | `honkai-star-rail-silver-wolf-lv999` | 2 | 《崩坏：星穹铁道》银狼 Lv.999 的同人 Q 版 Codex 宠物，呈现虚数·欢愉新形态，保留银色马尾、虹彩护目镜、紫黑赛博夹克与装甲手套。 | [YaKun9](https://github.com/YaKun9) | [查看](./honkai-star-rail-silver-wolf-lv999/) |
 
 ## 使用方式
 
