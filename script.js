@@ -201,6 +201,19 @@ const pets = [
     licenseType: "fan-noncommercial",
     contributor: "Zlllo",
     color: "142, 194, 255"
+  },
+  {
+    id: "honkai-star-rail-silver-wolf-lv999",
+    series: "starrail",
+    name: { zh: "银狼 Lv.999", en: "Silver Wolf Lv.999" },
+    description: {
+      zh: "《崩坏：星穹铁道》银狼 Lv.999 的同人 Q 版 Codex 宠物，呈现虚数·欢愉新形态，保留银色马尾、虹彩护目镜、紫黑赛博夹克与装甲手套。",
+      en: "A fan-made chibi Codex pet inspired by Silver Wolf Lv.999 from Honkai: Star Rail, her Imaginary / Elation form, with a silver ponytail, iridescent visor, purple-black cyberpunk jacket, and armored glove."
+    },
+    licenseType: "fan-noncommercial",
+    contributor: "YaKun9",
+    color: "159, 125, 235",
+    idleFrameCount: 6
   }
 ];
 
@@ -456,7 +469,7 @@ function schedulePetPreview(preview) {
   drawPetPreviewFrame(preview);
   preview.visual.classList.add("is-animating");
 
-  if (preview.frame === petPreviewAnimation.frameCount - 1) {
+  if (preview.frame === preview.frameCount - 1) {
     preview.timer = window.setTimeout(() => {
       if (!preview.active) {
         return;
@@ -523,10 +536,12 @@ function bindPetPreviews() {
   petGrid.querySelectorAll("[data-pet-preview]").forEach((visual) => {
     const card = visual.closest(".pet-card");
     const canvas = visual.querySelector("canvas");
+    const pet = pets.find((item) => item.id === visual.dataset.petPreview);
     const preview = {
       active: false,
       context: canvas.getContext("2d"),
       frame: 0,
+      frameCount: pet?.idleFrameCount ?? petPreviewAnimation.frameCount,
       petId: visual.dataset.petPreview,
       spriteSheet: null,
       timer: null,
