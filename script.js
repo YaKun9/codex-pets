@@ -75,8 +75,8 @@ const pets = [
     series: "starrail",
     name: { zh: "黄泉", en: "Acheron" },
     description: {
-      zh: "《崩坏：星穹铁道》黄泉终结技形态的精修同人 Q 版 Codex 宠物，保留银白长发、赤色眼眸、黑白红战装与绯红长刀，包含九种状态动画和十六向注视。",
-      en: "A refined fan-made chibi Codex pet of Acheron in her ultimate form from Honkai: Star Rail, with silver-white hair, crimson eyes, a black-white-red combat outfit, and a crimson blade, featuring nine animated states and sixteen gaze directions."
+      zh: "《崩坏：星穹铁道》黄泉的精修同人 Q 版 Codex 宠物：紫发常态待机与十六向注视，白发赤眸终结技形态演绎移动、招呼及任务反应，包含九种状态动画。",
+      en: "A refined fan-made chibi Codex pet of Acheron from Honkai: Star Rail: purple-haired normal form for idle and sixteen gaze directions, and her white-haired crimson ultimate form for movement, greetings and task reactions across nine animated states."
     },
     licenseType: "fan-noncommercial",
     contributor: "YaKun9",

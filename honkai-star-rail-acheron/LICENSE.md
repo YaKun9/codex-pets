@@ -2,7 +2,7 @@
 
 - 投稿者 / Contributor: YaKun9
 - 宠物 / Pet: 黄泉 / Acheron
-- 重制 / Remake: 2026-09-30，AI 辅助创作的终结技形态重制 / AI-assisted ultimate-form remake
+- 重制 / Remake: 2026-10-05，AI 辅助创作的常态与终结技双形态重制 / AI-assisted normal/ultimate dual-form remake
 - 来源 / Based on: 《崩坏：星穹铁道》黄泉 / Acheron from *Honkai: Star Rail*
 
 投稿者已授权 codex-pets 仓库收录本目录素材，并允许用户在适用法律和相关权利人规则允许的范围内，以非商业目的下载、使用、复制、修改和分享这些素材，包括克隆或 Fork 完整仓库、提交 Pull Request，以及安装到个人 Codex 环境中。
@@ -14,6 +14,8 @@ The contributor has authorized the codex-pets repository to include the assets i
 Any sharing must retain this file and its source and attribution information. The assets may not be used commercially, sold, distributed for a fee, or sublicensed. This permission covers only the original expression owned by the contributor. Rights in the underlying character, name, design, trademarks, and related properties remain with their respective rights holders. This project is not affiliated with, sponsored by, or officially endorsed by those rights holders.
 
 ## 角色参考 / Character references
+
+- Official Acheron character preview and ultimate animation: https://www.miyoushe.com/sr/article/50477670
 
 - Official Acheron trailer, “Your Color”: https://www.youtube.com/watch?v=IQQPDPAvxTg
 - Official gameplay showcase: https://www.youtube.com/watch?v=Y9vz34wximk
