@@ -215,6 +215,19 @@ const pets = [
     contributor: "YaKun9",
     color: "159, 125, 235",
     idleFrameCount: 6
+  },
+  {
+    id: "honkai-star-rail-firefly-spring-missive",
+    series: "starrail",
+    name: { zh: "流萤·春日手信", en: "Firefly · Spring Missive" },
+    description: {
+      zh: "《崩坏：星穹铁道》流萤「春日手信」时装的精修同人 Q 版宠物，保留银青长发、白色水手服、绿格领结与灰格百褶裙，包含九种状态动画与十六向注视。",
+      en: "A refined fan-made chibi Firefly in her Spring Missive outfit from Honkai: Star Rail, with silver-to-teal hair, a white sailor blouse, green plaid bow and gray pleated skirt, across nine animated states and sixteen gaze directions."
+    },
+    licenseType: "fan-noncommercial",
+    contributor: "YaKun9",
+    color: "94, 168, 157",
+    idleFrameCount: 6
   }
 ];
 

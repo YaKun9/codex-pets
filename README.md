@@ -31,6 +31,7 @@
 | <img src="./original-bubu-codebrew-bear/preview.webp" alt="布布" width="72"> | 布布 | `original-bubu-codebrew-bear` | 2 | 布布是一只原创 AI 辅助创作的可可棕色编程熊，专注地使用青色笔记本电脑，身旁放着一只白色咖啡杯。 | [xxhh0822](https://github.com/xxhh0822) | [查看](./original-bubu-codebrew-bear/) |
 | <img src="./genshin-impact-odette/preview.webp" alt="奥黛塔" width="72"> | 奥黛塔 | `genshin-impact-odette` | 2 | 《原神》奥黛塔的 Q 版 Codex 宠物，保留浅蓝发、蓝白芭蕾舞裙与优雅旋转动作。 | [Zlllo](https://github.com/Zlllo) | [查看](./genshin-impact-odette/) |
 | <img src="./honkai-star-rail-silver-wolf-lv999/preview.webp" alt="银狼 Lv.999" width="72"> | 银狼 Lv.999 | `honkai-star-rail-silver-wolf-lv999` | 2 | 《崩坏：星穹铁道》银狼 Lv.999 的同人 Q 版 Codex 宠物，呈现虚数·欢愉新形态，保留银色马尾、虹彩护目镜、紫黑赛博夹克与装甲手套。 | [YaKun9](https://github.com/YaKun9) | [查看](./honkai-star-rail-silver-wolf-lv999/) |
+| <img src="./honkai-star-rail-firefly-spring-missive/preview.webp" alt="流萤·春日手信" width="72"> | 流萤·春日手信 | `honkai-star-rail-firefly-spring-missive` | 2 | 《崩坏：星穹铁道》流萤「春日手信」时装的精修同人 Q 版宠物，保留银青长发、白色水手服、绿格领结与灰格百褶裙，包含九种状态动画与十六向注视。 | [YaKun9](https://github.com/YaKun9) | [查看](./honkai-star-rail-firefly-spring-missive/) |
 
 ## 使用方式
 
