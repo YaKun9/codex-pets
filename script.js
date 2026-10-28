@@ -228,6 +228,19 @@ const pets = [
     contributor: "YaKun9",
     color: "94, 168, 157",
     idleFrameCount: 6
+  },
+  {
+    id: "onimai-oyama-mahiro",
+    series: "onimai",
+    name: { zh: "绪山真寻", en: "Mahiro Oyama" },
+    description: {
+      zh: "《别当欧尼酱了！》绪山真寻的 AI 辅助创作同人 Q 版宠物，浅粉长发、花朵发饰与粉色连帽衫，包含九种状态动画和十六向注视。",
+      en: "An AI-assisted fan-made chibi Mahiro Oyama from ONIMAI: I'm Now Your Sister!, with pale-pink hair, a flower clip and pink hoodie, nine animated states and sixteen gaze directions."
+    },
+    licenseType: "fan-noncommercial",
+    contributor: "Qinghuan-Lee",
+    color: "242, 167, 191",
+    idleFrameCount: 6
   }
 ];
 
@@ -327,6 +340,7 @@ const translations = {
 };
 
 const seriesLabels = {
+  onimai: { zh: "别当欧尼酱了！", en: "ONIMAI: I’m Now Your Sister!" },
   chinesePaladin: { zh: "仙剑奇侠传", en: "Chinese Paladin" },
   genshin: { zh: "原神", en: "Genshin Impact" },
   naruto: { zh: "火影忍者", en: "Naruto" },
