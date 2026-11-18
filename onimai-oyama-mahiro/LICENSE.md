@@ -2,7 +2,7 @@
 
 - 投稿者 / Contributor: Qinghuan-Lee
 - 宠物 / Pet: 绪山真寻 / Mahiro Oyama
-- 来源 / Based on: 《原神》绪山真寻 / Mahiro Oyama from *Genshin Impact*
+- 来源 / Based on: 《别当欧尼酱了！》绪山真寻 / Mahiro Oyama from *ONIMAI: I'm Now Your Sister!*
 
 投稿者已授权 codex-pets 仓库收录本目录素材，并允许用户在适用法律和相关权利人规则允许的范围内，以非商业目的下载、使用、复制、修改和分享这些素材，包括克隆或 Fork 完整仓库、提交 Pull Request，以及安装到个人 Codex 环境中。
 
